@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python dev server
+__pycache__/
+*.py[cod]
+
+# Node (if added later)
+node_modules/

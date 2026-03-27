@@ -1,0 +1,5458 @@
+{
+  "TOCS": {
+    "全称": "ACM Transactions on Computer Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/tocs/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TOS": {
+    "全称": "ACM Transactions on Storage",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/tos/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TCAD": {
+    "全称": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tcad/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TC": {
+    "全称": "IEEE Transactions on Computers",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tc/index.html",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TPDS": {
+    "全称": "IEEE Transactions on Parallel and Distributed Systems",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tpds/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TACO": {
+    "全称": "ACM Transactions on Architecture and Code Optimization",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/taco/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TAAS": {
+    "全称": "ACM Transactions on Autonomous and Adaptive Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/taas/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TODAES": {
+    "全称": "ACM Transactions on Design Automation of Electronic Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/todaes/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TECS": {
+    "全称": "ACM Transactions on Embedded Computing Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/tecs/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TRETS": {
+    "全称": "ACM Transactions on Reconfigurable Technology and Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/trets/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TVLSI": {
+    "全称": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tvlsi/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "JPDC": {
+    "全称": "Journal of Parallel and Distributed Computing",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/jpdc/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "JSA": {
+    "全称": "Journal of Systems Architecture: Embedded Software Design",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/jsa/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "Parallel Computing": {
+    "全称": "Parallel Computing",
+    "出版社": "Elsevier",
+    "网址": "https://dblp.org/db/journals/pc/index.html",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "Performance Evaluation: An International Journal": {
+    "全称": "Performance Evaluation: An International Journal",
+    "出版社": "Elsevier",
+    "网址": "https://dblp.org/db/journals/pe/index.html",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TCC": {
+    "全称": "IEEE Transactions on Cloud Computing",
+    "出版社": "IEEE",
+    "网址": "https://dblp.uni-trier.de/db/journals/tcc/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "JETC": {
+    "全称": "ACM Journal on Emerging Technologies in Computing Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/jetc/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Concurrency and Computation: Practice and Experience": {
+    "全称": "Concurrency and Computation: Practice and Experience",
+    "出版社": "Wiley",
+    "网址": "http://dblp.uni-trier.de/db/journals/concurrency/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "DC": {
+    "全称": "Distributed Computing",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/dc/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "FGCS": {
+    "全称": "Future Generation Computer Systems",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/fgcs",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Integration": {
+    "全称": "Integration, the VLSI Journal",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/integration",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JETTA": {
+    "全称": "Journal of Electronic Testing-Theory and Applications",
+    "出版社": "Springer",
+    "网址": "https://dblp.org/db/journals/et/index.html",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JGC": {
+    "全称": "Journal of Grid computing",
+    "出版社": "Springer",
+    "网址": "https://dblp.uni-trier.de/db/journals/grid/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "RTS": {
+    "全称": "Real-Time Systems",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/rts/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TJSC": {
+    "全称": "The Journal of Supercomputing",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/tjs/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TCASI": {
+    "全称": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "出版社": "IEEE",
+    "网址": "https://dblp.org/db/journals/tcasI/index.html",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "CCF-THPC": {
+    "全称": "CCF Transactions on High Performance Computing",
+    "出版社": "CCF",
+    "网址": "https://dblp.org/db/journals/ccfthpc/index.html",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TSUSC": {
+    "全称": "IEEE Transactions on Sustainable Computing",
+    "出版社": "IEEE",
+    "网址": "https://dblp.org/db/journals/tsusc/index.html",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "PPoPP": {
+    "全称": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/ppopp/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "FAST": {
+    "全称": "USENIX Conference on File and Storage Technologies",
+    "出版社": "USENIX",
+    "网址": "http://dblp.uni-trier.de/db/conf/fast/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "DAC": {
+    "全称": "Design Automation Conference",
+    "出版社": "ACM",
+    "网址": "https://dblp.uni-trier.de/db/conf/dac/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "HPCA": {
+    "全称": "IEEE International Symposium on High Performance Computer Architecture",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/hpca/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "MICRO": {
+    "全称": "IEEE/ACM International Symposium on Microarchitecture",
+    "出版社": "IEEE/ACM",
+    "网址": "https://dblp.uni-trier.de/db/conf/micro/index.html",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "SC": {
+    "全称": "International Conference for High Performance Computing, Networking, Storage, and Analysis",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/sc/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "ASPLOS": {
+    "全称": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/asplos/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "ISCA": {
+    "全称": "International Symposium on Computer Architecture",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/isca/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "ACM SIGOPS ATC": {
+    "全称": "ACM SIGOPS Annual Technical Conference",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/usenix/index.html",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "EuroSys": {
+    "全称": "European Conference on Computer Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/eurosys/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "HPDC": {
+    "全称": "The International ACM Symposium on High-Performance Parallel and Distributed Computing",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/hpdc/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "SoCC": {
+    "全称": "ACM Symposium on Cloud Computing",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/cloud/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "SPAA": {
+    "全称": "ACM Symposium on Parallelism in Algorithms and Architectures",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/spaa/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "PODC": {
+    "全称": "ACM Symposium on Principles of Distributed Computing",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/podc/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "FPGA": {
+    "全称": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/fpga/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "CGO": {
+    "全称": "The International Symposium on Code Generation and Optimization",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/cgo/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "DATE": {
+    "全称": "Design, Automation & Test in Europe",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/date/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "HOT CHIPS": {
+    "全称": "Hot Chips: A Symposium on High Performance Chips",
+    "出版社": "IEEE",
+    "网址": "https://dblp.org/db/conf/hotchips/index.html",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "CLUSTER": {
+    "全称": "IEEE International Conference on Cluster Computing",
+    "出版社": "IEEE",
+    "网址": "https://dblp.uni-trier.de/db/conf/cluster/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICCD": {
+    "全称": "International Conference on Computer Design",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/iccd/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICCAD": {
+    "全称": "International Conference on Computer-Aided Design",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/iccad/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICDCS": {
+    "全称": "IEEE International Conference on Distributed Computing Systems",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/icdcs/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "CODES+ISSS": {
+    "全称": "International Conference on Hardware/Software Co-design and System Synthesis",
+    "出版社": "IEEE/ACM",
+    "网址": "https://dblp.uni-trier.de/db/conf/codesisss/index.html",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "HiPEAC": {
+    "全称": "International Conference on High Performance and Embedded Architectures and Compilers",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/hipeac/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "SIG-METRICS": {
+    "全称": "International Conference on Measurement and Modeling of Computer Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/sigmetrics/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "PACT": {
+    "全称": "International Conference on Parallel Architectures and Compilation Techniques",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/IEEEpact/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICPP": {
+    "全称": "International Conference on Parallel Processing",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/icpp/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICS": {
+    "全称": "International Conference on Supercomputing",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/ics/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "VEE": {
+    "全称": "International Conference on Virtual Execution Environments",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/vee/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "IPDPS": {
+    "全称": "IEEE International Parallel & Distributed Processing Symposium",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/ipps/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "Performance": {
+    "全称": "International Symposium on Computer Performance, Modeling, Measurements and Evaluation",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/performance/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ITC": {
+    "全称": "International Test Conference",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/itc/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "LISA": {
+    "全称": "Large Installation System Administration Conference",
+    "出版社": "USENIX",
+    "网址": "http://dblp.uni-trier.de/db/conf/lisa/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "MSST": {
+    "全称": "Mass Storage Systems and Technologies",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/mss/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "RTAS": {
+    "全称": "IEEE Real-Time and Embedded Technology and Applications Symposium",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/rtas/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "Euro-Par": {
+    "全称": "European Conference on Parallel and Distributed Computing Springer",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/europar/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ISCAS": {
+    "全称": "IEEE International Symposium on Circuits and Systems",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/hpdc/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "CF": {
+    "全称": "ACM International Conference on Computing Frontiers",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/cf",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SYSTOR": {
+    "全称": "ACM International Systems and Storage Conference",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/systor/index.html",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "NOCS": {
+    "全称": "ACM/IEEE International Symposium on Networks-on-Chip",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/nocs",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ASAP": {
+    "全称": "IEEE International Conference on Application-Specific Systems, Architectures, and Processors",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/asap",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ASP-DAC": {
+    "全称": "Asia and South Pacific Design Automation Conference",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/aspdac",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ETS": {
+    "全称": "IEEE European Test Symposium",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/ets/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "FPL": {
+    "全称": "International Conference on Field-Programmable Logic and Applications",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/fpl/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "FCCM": {
+    "全称": "IEEE Symposium on Field-Programmable Custom Computing Machines",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/fccm/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "GLSVLSI": {
+    "全称": "Great Lakes Symposium on VLSI",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/glvlsi/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ATS": {
+    "全称": "IEEE Asian Test Symposium",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/ats/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "HPCC": {
+    "全称": "IEEE International Conference on High Performance Computing and Communications",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/hpcc/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "HiPC": {
+    "全称": "IEEE International Conference on High Performance Computing, Data and Analytics",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/hipc/index.html",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "MASCOTS": {
+    "全称": "International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/mascots/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ISPA": {
+    "全称": "IEEE International Symposium on Parallel and Distributed Processing with Applications",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/sigmetrics/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "CCGRID": {
+    "全称": "IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/IEEEpact/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "NPC": {
+    "全称": "IFIP International Conference on Network and Parallel Computing",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/icpp/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICA3PP": {
+    "全称": "International Conference on Algorithms and Architectures for Parallel Processing",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/ics/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "CASES": {
+    "全称": "International Conference on Compilers, Architectures, and Synthesis for Embedded Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/vee/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "FPT": {
+    "全称": "International Conference on Field-Programmable Technology",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/ipps/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICPADS": {
+    "全称": "International Conference on Parallel and Distributed Systems",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/performance/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ISLPED": {
+    "全称": "International Symposium on Low Power Electronics and Design",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/itc/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ISPD": {
+    "全称": "International Symposium on Physical Design",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/lisa/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "HOTI": {
+    "全称": "IEEE Symposium on High-Performance Interconnects",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/mss/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "VTS": {
+    "全称": "IEEE VLSI Test Symposium",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/rtas/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ITC-Asia": {
+    "全称": "International Test Conference in Asia",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/europar/",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SEC": {
+    "全称": "ACM/IEEE Symposium on Edge Computing",
+    "出版社": "IEEE/ACM",
+    "网址": "https://dblp.uni-trier.de/db/conf/ieeesec/index.html",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "NAS": {
+    "全称": "International Conference on Networking, Architecture and Storages",
+    "出版社": "IEEE",
+    "网址": "https://dblp.uni-trier.de/db/conf/nas/index.html",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "HotStorage": {
+    "全称": "HotStorage",
+    "出版社": "USENIX Association",
+    "网址": "https://dblp.uni-trier.de/db/conf/hotstorage/index.html",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "APPT": {
+    "全称": "International Symposium on Advanced Parallel Processing Technology",
+    "出版社": "Springer",
+    "网址": "https://dblp.uni-trier.de/db/conf/appt/index.html",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "JCC": {
+    "全称": "International Conference on JointCloud Computing",
+    "出版社": "CCF&IEEE",
+    "网址": "",
+    "领域": "计算机体系结构/并行与分布计算/存储系统",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "JSAC": {
+    "全称": "IEEE Journal on Selected Areas in Communications",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/jsac/",
+    "领域": "计算机网络",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TMC": {
+    "全称": "IEEE Transactions on Mobile Computing",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tmc/",
+    "领域": "计算机网络",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TON": {
+    "全称": "IEEE/ACM Transactions on Networking",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/ton/",
+    "领域": "计算机网络",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TOIT": {
+    "全称": "ACM Transactions on Internet Technology",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/toit/",
+    "领域": "计算机网络",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TOMM": {
+    "全称": "ACM Transactions on Multimedia Computing, Communications and Applications",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/tomccap/",
+    "领域": "计算机网络",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TOSN": {
+    "全称": "ACM Transactions on Sensor Networks",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/tosn/",
+    "领域": "计算机网络",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "CN": {
+    "全称": "Computer Networks",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/cn/",
+    "领域": "计算机网络",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TCOM": {
+    "全称": "IEEE Transactions on Communications",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tcom/",
+    "领域": "计算机网络",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TWC": {
+    "全称": "IEEE Transactions on Wireless Communications",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/twc/",
+    "领域": "计算机网络",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "Ad Hoc Networks": {
+    "全称": "Ad Hoc Networks",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/adhoc/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "CC": {
+    "全称": "Computer Communications",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/comcom/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TNSM": {
+    "全称": "IEEE Transactions on Network and Service Management",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tnsm/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IET Communications": {
+    "全称": "IET Communications",
+    "出版社": "IET",
+    "网址": "http://dblp.uni-trier.de/db/journals/iet-com/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JNCA": {
+    "全称": "Journal of Network and Computer Applications",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/jnca/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "MONET": {
+    "全称": "Mobile Networks and Applications",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/monet/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Networks": {
+    "全称": "Networks",
+    "出版社": "Wiley",
+    "网址": "http://dblp.uni-trier.de/db/journals/networks/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "PPNA": {
+    "全称": "Peer-to-Peer Networking and Applications",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/ppna/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "WCMC": {
+    "全称": "Wireless Communications and Mobile Computing",
+    "出版社": "Wiley",
+    "网址": "http://dblp.uni-trier.de/db/journals/wicomm/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Wireless Networks": {
+    "全称": "Wireless Networks",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/winet/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IOT": {
+    "全称": "IEEE Internet of Things Journal",
+    "出版社": "IEEE",
+    "网址": "https://dblp.org/db/journals/iotj/index.html",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TIOT": {
+    "全称": "ACM Transactions on Internet of Things",
+    "出版社": "ACM",
+    "网址": "https://dblp.uni-trier.de/db/journals/tiot/index.html",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "SIGCOMM": {
+    "全称": "ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/sigcomm/index.html",
+    "领域": "计算机网络",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "MobiCom": {
+    "全称": "ACM International Conference on Mobile Computing and Networking",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/mobicom/",
+    "领域": "计算机网络",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "INFOCOM": {
+    "全称": "IEEE International Conference on Computer Communications",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/infocom/",
+    "领域": "计算机网络",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "NSDI": {
+    "全称": "Symposium on Network System Design and Implementation",
+    "出版社": "USENIX",
+    "网址": "http://dblp.uni-trier.de/db/conf/nsdi/",
+    "领域": "计算机网络",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "SenSys": {
+    "全称": "ACM Conference on Embedded Networked Sensor Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/sensys/",
+    "领域": "计算机网络",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "CoNEXT": {
+    "全称": "ACM International Conference on Emerging Networking Experiments and Technologies",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/conext/",
+    "领域": "计算机网络",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "SECON": {
+    "全称": "IEEE International Conference on Sensing, Communication, and Networking",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/secon/",
+    "领域": "计算机网络",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "IPSN": {
+    "全称": "International Conference on Information Processing in Sensor Networks",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/ipsn/",
+    "领域": "计算机网络",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "MobiSys": {
+    "全称": "ACM International Conference on Mobile Systems, Applications, and Services",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/mobisys/",
+    "领域": "计算机网络",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICNP": {
+    "全称": "IEEE International Conference on Network Protocols",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/icnp/",
+    "领域": "计算机网络",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "MobiHoc": {
+    "全称": "International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/mobihoc/",
+    "领域": "计算机网络",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "NOSSDAV": {
+    "全称": "International Workshop on Network and Operating System Support for Digital Audio and Video",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/nossdav/",
+    "领域": "计算机网络",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "IWQoS": {
+    "全称": "IEEE/ACM International Workshop on Quality of Service",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/iwqos/",
+    "领域": "计算机网络",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "IMC": {
+    "全称": "ACM Internet Measurement Conference",
+    "出版社": "ACM/USENIX",
+    "网址": "http://dblp.uni-trier.de/db/conf/imc/",
+    "领域": "计算机网络",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ANCS": {
+    "全称": "ACM/IEEE Symposium on Architectures for Networking and Communication Systems",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/ancs/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "APNOMS": {
+    "全称": "Asia-Pacific Network Operations and Management Symposium",
+    "出版社": "IFIP/IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/apnoms/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "FORTE": {
+    "全称": "International Conference on Formal Techniques for Distributed Objects, Components, and Systems",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/forte/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "LCN": {
+    "全称": "IEEE Conference on Local Computer Networks",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/lcn/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "GLOBECOM": {
+    "全称": "IEEE Global Communications Conference",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/globecom/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICC": {
+    "全称": "IEEE International Conference on Communications",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/icc/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICCCN": {
+    "全称": "IEEE International Conference on Computer Communications and Networks",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/icccn/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "MASS": {
+    "全称": "IEEE International Conference on Mobile Adhoc and Sensor Systems",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/mass/index.html",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "P2P": {
+    "全称": "IEEE International Conference on Peer-to-Peer Computing",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/p2p/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "IPCCC": {
+    "全称": "IEEE International Performance Computing and Communications Conference",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/ipccc/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "WoWMoM": {
+    "全称": "IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/wowmom/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ISCC": {
+    "全称": "IEEE Symposium on Computers and Communications",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/iscc/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "WCNC": {
+    "全称": "IEEE Wireless Communications and Networking Conference",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/wcnc/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "Networking": {
+    "全称": "IFIP International Conferences on Networking",
+    "出版社": "IFIP",
+    "网址": "http://dblp.uni-trier.de/db/conf/networking/index.html",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "IM": {
+    "全称": "IFIP/IEEE International Symposium on Integrated Network Management",
+    "出版社": "IFIP/IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/im/index.html",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "MSN": {
+    "全称": "International Conference on Mobility, Sensing and Networking",
+    "出版社": "IEEE",
+    "网址": "https://dblp.uni-trier.de/db/conf/msn/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "MSWiM": {
+    "全称": "International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/mswim/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "WASA": {
+    "全称": "The International Conference on Wireless Artificial Intelligent Computing Systems and Applications",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/wasa/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "HotNets": {
+    "全称": "ACM The Workshop on Hot Topics in Networks",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/hotnets/",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "APNet": {
+    "全称": "Asia-Pacific Workshop on Networking",
+    "出版社": "ACM",
+    "网址": "https://dblp.org/db/conf/apnet/index.html",
+    "领域": "计算机网络",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "TDSC": {
+    "全称": "IEEE Transactions on Dependable and Secure Computing",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tdsc/",
+    "领域": "网络与信息安全",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TIFS": {
+    "全称": "IEEE Transactions on Information Forensics and Security",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tifs/",
+    "领域": "网络与信息安全",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "Journal of Cryptology": {
+    "全称": "Journal of Cryptology",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/joc/",
+    "领域": "网络与信息安全",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TOPS": {
+    "全称": "ACM Transactions on Privacy and Security",
+    "出版社": "ACM",
+    "网址": "https://dblp.org/db/journals/tissec/index.html",
+    "领域": "网络与信息安全",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "Computers & Security": {
+    "全称": "Computers & Security",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/compsec/",
+    "领域": "网络与信息安全",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "Designs, Codes and Cryptography": {
+    "全称": "Designs, Codes and Cryptography",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/dcc/",
+    "领域": "网络与信息安全",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "JCS": {
+    "全称": "Journal of Computer Security",
+    "出版社": "IOSPress",
+    "网址": "http://dblp.uni-trier.de/db/journals/jcs/",
+    "领域": "网络与信息安全",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "Cybersecurity": {
+    "全称": "Cybersecurity",
+    "出版社": "中国科学院信 息工程研究所 /科学出版社",
+    "网址": "https://dblp.uni-trier.de/db/journals/cybersec/index.html",
+    "领域": "网络与信息安全",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "CLSR": {
+    "全称": "Computer Law & Security Review",
+    "出版社": "Elsevier",
+    "网址": "https://dblp.org/db/journals/clsr/index.html",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "EURASIP Journal on Information Security": {
+    "全称": "EURASIP Journal on Information Security",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/ejisec/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IET Information Security": {
+    "全称": "IET Information Security",
+    "出版社": "IET",
+    "网址": "http://dblp.uni-trier.de/db/journals/iet-ifs/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IMCS": {
+    "全称": "Information and Computer Security",
+    "出版社": "Emerald",
+    "网址": "http://dblp.uni-trier.de/db/journals/imcs/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IJICS": {
+    "全称": "International Journal of Information and Computer Security",
+    "出版社": "Inderscience",
+    "网址": "http://dblp.uni-trier.de/db/journals/ijics/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IJISP": {
+    "全称": "International Journal of Information Security and Privacy",
+    "出版社": "IGIGlobal",
+    "网址": "http://dblp.uni-trier.de/db/journals/ijisp/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JISA": {
+    "全称": "Journal of Information Security and Applications",
+    "出版社": "Elsevier",
+    "网址": "https://dblp.uni-trier.de/db/journals/istr/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "SCN": {
+    "全称": "Security and Communication Networks",
+    "出版社": "Wiley",
+    "网址": "http://dblp.uni-trier.de/db/journals/scn/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "HCC": {
+    "全称": "High-Confidence Computing",
+    "出版社": "Elsevier",
+    "网址": "",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "CCS": {
+    "全称": "ACM Conference on Computer and Communications Security",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/ccs/",
+    "领域": "网络与信息安全",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "EUROCRYPT": {
+    "全称": "International Conference on the Theory and Applications of Cryptographic Techniques",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/eurocrypt/",
+    "领域": "网络与信息安全",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "S&P": {
+    "全称": "IEEE Symposium on Security and Privacy",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/sp/",
+    "领域": "网络与信息安全",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "CRYPTO": {
+    "全称": "International Cryptology Conference",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/crypto/",
+    "领域": "网络与信息安全",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "USENIX Security": {
+    "全称": "USENIX Security Symposium",
+    "出版社": "USENIX Association",
+    "网址": "http://dblp.uni-trier.de/db/conf/uss/",
+    "领域": "网络与信息安全",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "NDSS": {
+    "全称": "Network and Distributed System Security Symposium",
+    "出版社": "ISOC",
+    "网址": "http://dblp.uni-trier.de/db/conf/ndss/",
+    "领域": "网络与信息安全",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "ACSAC": {
+    "全称": "Annual Computer Security Applications Conference",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/ancs/",
+    "领域": "网络与信息安全",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ASIACRYPT": {
+    "全称": "Annual International Conference on the Theory and Application of Cryptology and Information Security",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/apnoms/",
+    "领域": "网络与信息安全",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ESORICS": {
+    "全称": "European Symposium on Research in Computer Security",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/forte/",
+    "领域": "网络与信息安全",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "FSE": {
+    "全称": "Fast Software Encryption",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/lcn/",
+    "领域": "网络与信息安全",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "CSFW": {
+    "全称": "IEEE Computer Security Foundations Workshop",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/globecom/",
+    "领域": "网络与信息安全",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "SRDS": {
+    "全称": "IEEE International Symposium on Reliable Distributed Systems",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/icc/",
+    "领域": "网络与信息安全",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "CHES": {
+    "全称": "International Conference on Cryptographic Hardware and Embedded Systems",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/icccn/",
+    "领域": "网络与信息安全",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "DSN": {
+    "全称": "International Conference on Dependable Systems and Networks",
+    "出版社": "IEEE/IFIP",
+    "网址": "http://dblp.uni-trier.de/db/conf/mass/index.html",
+    "领域": "网络与信息安全",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "RAID": {
+    "全称": "International Symposium on Recent Advances in Intrusion Detection",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/p2p/",
+    "领域": "网络与信息安全",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "PKC": {
+    "全称": "International Workshop on Practice and Theory in Public Key Cryptography",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/ipccc/",
+    "领域": "网络与信息安全",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "TCC_2": {
+    "全称": "Theory of Cryptography Conference",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/wowmom/",
+    "领域": "网络与信息安全",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "WiSec": {
+    "全称": "ACM Conference on Security and Privacy in Wireless and Mobile Networks",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/ancs/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SACMAT": {
+    "全称": "ACM Symposium on Access Control Models and Technologies",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/apnoms/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "DRM": {
+    "全称": "ACM Workshop on Digital Rights Management",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/forte/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "IH&MMSec": {
+    "全称": "ACM Workshop on Information Hiding and Multimedia Security",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/lcn/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ACNS": {
+    "全称": "International Conference on Applied Cryptography and Network Security",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/globecom/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "AsiaCCS": {
+    "全称": "ACM Asia Conference on Computer and Communications Security",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/icc/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ACISP": {
+    "全称": "Australasia Conference on Information Security and Privacy",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/icccn/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "CT-RSA": {
+    "全称": "The Cryptographer's Track at RSA Conference",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/mass/index.html",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "DIMVA": {
+    "全称": "Conference on Detection of Intrusions and Malware & Vulnerability Assessment",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/p2p/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "DFRWS": {
+    "全称": "Digital Forensic Research Workshop",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/conf/ipccc/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "FC": {
+    "全称": "Financial Cryptography and Data Security",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/wowmom/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "TrustCom": {
+    "全称": "IEEE International Conference on Trust, Security and Privacy in Computing and Communications",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/iscc/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SEC_2": {
+    "全称": "IFIP International Information Security Conference",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/sec/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "IFIP WG 11.9": {
+    "全称": "IFIP Working Group 11.9 International Conference on Digital Forensics",
+    "出版社": "Springer",
+    "网址": "https://dblp.org/db/conf/ifip11-9/index.html",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ISC": {
+    "全称": "Information Security Conference",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/isw/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICDF2C": {
+    "全称": "International Conference on Digital Forensics & Cyber Crime",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/icdf2c/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICICS": {
+    "全称": "International Conference on Information and Communications Security",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/icics/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SecureComm": {
+    "全称": "International Conference on Security and Privacy in Communication Networks",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/securecomm/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "NSPW": {
+    "全称": "New Security Paradigms Workshop",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/nspw/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "PAM": {
+    "全称": "Passive and Active Measurement Conference",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/pam/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "PETS": {
+    "全称": "Privacy Enhancing Technologies Symposium",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/pet/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SAC": {
+    "全称": "Selected Areas in Cryptography",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/sacrypt/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SOUPS": {
+    "全称": "Symposium On Usable Privacy and Security",
+    "出版社": "USENIX",
+    "网址": "http://dblp.uni-trier.de/db/conf/soups/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "HotSec": {
+    "全称": "USENIX Workshop on Hot Topics in Security",
+    "出版社": "USENIX",
+    "网址": "http://www.usenix.org/events/",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "EuroS&P": {
+    "全称": "IEEE European Symposium on Security and Privacy",
+    "出版社": "IEEE",
+    "网址": "https://dblp.org/db/conf/eurosp/index.html",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "Inscrypt": {
+    "全称": "International Conference on Information Security and Cryptology",
+    "出版社": "Springer",
+    "网址": "https://dblp.org/db/conf/cisc/index.html",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "CODASPY": {
+    "全称": "Conference on Data and Application Security and Privacy",
+    "出版社": "ACM",
+    "网址": "https://dblp.uni-trier.de/db/conf/codaspy/index.html",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "BlockSys": {
+    "全称": "International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems",
+    "出版社": "Springer",
+    "网址": "https://dblp.uni-trier.de/db/conf/blocksys/index.html",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "CSCloud": {
+    "全称": "International Conference on Cyber Security and Cloud Computing",
+    "出版社": "IEEE CSCloud Steering Committee",
+    "网址": "https://dblp.uni-trier.de/db/conf/cscloud/index.html",
+    "领域": "网络与信息安全",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "TOPLAS": {
+    "全称": "ACM Transactions on Programming Languages and Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/toplas/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TOSEM": {
+    "全称": "ACM Transactions on Software Engineering and Methodology",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/tosem/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TSE": {
+    "全称": "IEEE Transactions on Software Engineering",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tse/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TSC": {
+    "全称": "IEEE Transactions on Services Computing",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tsc/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "ASE": {
+    "全称": "Automated Software Engineering",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/ase/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "ESE": {
+    "全称": "Empirical Software Engineering",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/ese/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "IETS": {
+    "全称": "IET Software",
+    "出版社": "IET",
+    "网址": "https://dblp.uni-trier.de/db/journals/iet-sen/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "IST": {
+    "全称": "Information and Software Technology Cambridge",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/infsof/index.html",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "JFP": {
+    "全称": "Journal of Functional Programming",
+    "出版社": "Cambridge University Press",
+    "网址": "http://dblp.uni-trier.de/db/journals/jfp/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "Journal of Software: Evolution and Process": {
+    "全称": "Journal of Software: Evolution and Process",
+    "出版社": "Wiley",
+    "网址": "http://dblp.uni-trier.de/db/journals/smr/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "JSS": {
+    "全称": "Journal of Systems and Software",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/jss/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "RE": {
+    "全称": "Requirements Engineering",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/re/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "SCP": {
+    "全称": "Science of Computer Programming",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/scp/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "SoSyM": {
+    "全称": "Software and Systems Modeling",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/sosym/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "STVR": {
+    "全称": "Software Testing, Verification and Reliability",
+    "出版社": "Wiley",
+    "网址": "http://dblp.uni-trier.de/db/journals/stvr/index.html",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "SPE": {
+    "全称": "Software: Practice and Experience",
+    "出版社": "Wiley",
+    "网址": "http://dblp.uni-trier.de/db/journals/spe/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "CL": {
+    "全称": "Computer Languages, Systems and Structures",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/cl/index.html",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IJSEKE": {
+    "全称": "International Journal of Software Engineering and Knowledge Engineering",
+    "出版社": "World Scientific",
+    "网址": "http://dblp.uni-trier.de/db/journals/ijseke/index.html",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "STTT": {
+    "全称": "International Journal of Software Tools for Technology Transfer",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/sttt/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JLAMP": {
+    "全称": "Journal of Logical and Algebraic Methods in Programming",
+    "出版社": "Elsevier",
+    "网址": "https://dblp.uni-trier.de/db/journals/jlap/index.html",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JWE": {
+    "全称": "Journal of Web Engineering",
+    "出版社": "Rinton Press",
+    "网址": "http://dblp.uni-trier.de/db/journals/jwe/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "SOCA": {
+    "全称": "Service Oriented Computing and Applications",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/soca/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "SQJ": {
+    "全称": "Software Quality Journal",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/sqj/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TPLP": {
+    "全称": "Theory and Practice of Logic Programming",
+    "出版社": "Cambridge University Press",
+    "网址": "http://dblp.uni-trier.de/db/journals/tplp/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "PACM PL": {
+    "全称": "Proceedings of the ACM on Programming Languages",
+    "出版社": "ACM",
+    "网址": "https://dblp.org/db/journals/pacmpl/index.html",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "PLDI": {
+    "全称": "ACM SIGPLAN Conference on Programming Language Design and Implementation",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/pldi/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "POPL": {
+    "全称": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/popl/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "FSE_2": {
+    "全称": "ACM International Conference on the Foundations of Software Engineering",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/sigsoft/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "SOSP": {
+    "全称": "ACM Symposium on Operating Systems Principles",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/sosp/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "OOPSLA": {
+    "全称": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/oopsla/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "ASE_2": {
+    "全称": "International Conference on Automated Software Engineering",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/kbse/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "ICSE": {
+    "全称": "International Conference on Software Engineering",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/icse/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "ISSTA": {
+    "全称": "International Symposium on Software Testing and Analysis",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/issta/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "OSDI": {
+    "全称": "USENIX Symposium on Operating Systems Design and Implementation",
+    "出版社": "USENIX",
+    "网址": "http://dblp.uni-trier.de/db/conf/osdi/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "FM": {
+    "全称": "International Symposium on Formal Methods",
+    "出版社": "FME",
+    "网址": "http://dblp.uni-trier.de/db/conf/fm/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "ECOOP": {
+    "全称": "European Conference on Object-Oriented Programming",
+    "出版社": "AITO",
+    "网址": "http://dblp.uni-trier.de/db/conf/ecoop/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ETAPS": {
+    "全称": "European Joint Conferences on Theory and Practice of Software",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/etaps/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICPC": {
+    "全称": "IEEE International Conference on Program Comprehension",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/iwpc/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "RE_2": {
+    "全称": "IEEE International Requirements Engineering Conference",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/re/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "CAiSE": {
+    "全称": "International Conference on Advanced Information Systems Engineering",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/caise/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICFP": {
+    "全称": "ACM SIGPLAN International Conference on Function Programming",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/icfp/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "LCTES": {
+    "全称": "ACM SIGPLAN/SIGBED International Conference on Languages, Compilers and Tools for Embedded Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/lctrts/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "MoDELS": {
+    "全称": "ACM/IEEE International Conference on Model Driven EngineeringLanguages and Systems",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/models/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "CP": {
+    "全称": "International Conference on Principles and Practice of Constraint Programming",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/cp/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICSOC": {
+    "全称": "International Conference on Service Oriented Computing",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/icsoc/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "SANER": {
+    "全称": "IEEE International Conference on Software Analysis, Evolution, and Reengineering",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/wcre/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICSME": {
+    "全称": "International Conference on Software Maintenance and Evolution",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/icsm/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "VMCAI": {
+    "全称": "International Conference on Verification, Model Checking and Abstract Interpretation",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/vmcai/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICWS": {
+    "全称": "IEEE International Conference on Web Services",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/icws/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "Middleware": {
+    "全称": "International Middleware Conference",
+    "出版社": "ACM/IFIP/USENIX",
+    "网址": "http://dblp.uni-trier.de/db/conf/middleware/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "SAS": {
+    "全称": "International Static Analysis Symposium",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/sas/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ESEM": {
+    "全称": "International Symposium on Empirical Software Engineering and Measurement",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/esem/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ISSRE": {
+    "全称": "IEEE International Symposium on Software Reliability Engineering",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/issre/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "HotOS": {
+    "全称": "USENIX Workshop on Hot Topics in Operating Systems",
+    "出版社": "USENIX",
+    "网址": "http://dblp.uni-trier.de/db/conf/hotos/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "CC_2": {
+    "全称": "International Conference on Compiler Construction",
+    "出版社": "ACM",
+    "网址": "https://dblp.uni-trier.de/db/conf/cc/index.html",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "PEPM": {
+    "全称": "ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/pepm/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "PASTE": {
+    "全称": "ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/paste/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "APLAS": {
+    "全称": "Asian Symposium on Programming Languages and Systems",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/aplas/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "APSEC": {
+    "全称": "Asia-Pacific Software Engineering Conference",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/apsec/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "EASE": {
+    "全称": "International Conference on Evaluation and Assessment in Software Engineering",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/ease/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICECCS": {
+    "全称": "International Conference on Engineering of Complex Computer Systems",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/iceccs/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICST": {
+    "全称": "IEEE International Conference on Software Testing, Verification and Validation",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/icst/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ISPASS": {
+    "全称": "IEEE International Symposium on Performance Analysis of Systems and Software",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/ispass/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SCAM": {
+    "全称": "IEEE International Working Conference on Source Code Analysis and Manipulation",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/scam/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "COMPSAC": {
+    "全称": "International Computer Software and Applications Conference",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/compsac/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICFEM": {
+    "全称": "International Conference on Formal Engineering Methods",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/icfem/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SSE": {
+    "全称": "IEEE International Conference on Software Services Engineering",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/IEEEscc/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICSSP": {
+    "全称": "International Conference on Software and System Process",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/ispw/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SEKE": {
+    "全称": "International Conference on Software Engineering and Knowledge Engineering",
+    "出版社": "KSI",
+    "网址": "http://dblp.uni-trier.de/db/conf/seke/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "QRS": {
+    "全称": "International Conference on Software Quality, Reliability and Security",
+    "出版社": "IEEE",
+    "网址": "https://dblp.uni-trier.de/db/conf/qrs/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICSR": {
+    "全称": "International Conference on Software Reuse",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/icsr/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICWE": {
+    "全称": "International Conference on Web Engineering",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/icwe/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SPIN": {
+    "全称": "International Symposium on Model Checking of Software",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/spin/index.html",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ATVA": {
+    "全称": "International Symposium on Automated Technology for Verification and Analysis",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/atva/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "LOPSTR": {
+    "全称": "International Symposium on Logic-based Program Synthesis and Transformation",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/lopstr/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "TASE": {
+    "全称": "Theoretical Aspects of Software Engineering Conference",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/tase/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "MSR": {
+    "全称": "Mining Software Repositories",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/msr/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "REFSQ": {
+    "全称": "Requirements Engineering: Foundation for Software Quality",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/refsq/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "WICSA": {
+    "全称": "Working IEEE/IFIP Conference on Software Architecture",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/wicsa/",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "Internetware": {
+    "全称": "Asia-Pacific Symposium on Internetware",
+    "出版社": "ACM",
+    "网址": "https://dblp.org/db/conf/internetware/index.html",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "RV": {
+    "全称": "International Conference on Runtime Verification",
+    "出版社": "Springer",
+    "网址": "https://dblp.org/db/conf/rv/index.html",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "MEMOCODE": {
+    "全称": "International Conference on Formal Methods and Models for Co-Design",
+    "出版社": "IEEE/ACM",
+    "网址": "https://dblp.uni-trier.de/db/conf/memocode/index.html",
+    "领域": "软件工程/系统软件/程序设计语言",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "TODS": {
+    "全称": "ACM Transactions on Database Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/tods/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TOIS": {
+    "全称": "ACM Transactions on Information Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/tois/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TKDE": {
+    "全称": "IEEE Transactions on Knowledge and Data Engineering",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tkde/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "VLDBJ": {
+    "全称": "The VLDB Journal",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/vldb/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TKDD": {
+    "全称": "ACM Transactions on Knowledge Discovery from Data",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/tkdd/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TWEB": {
+    "全称": "ACM Transactions on the Web",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/tweb/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "AEI": {
+    "全称": "Advanced Engineering Informatics",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/aei/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "DKE": {
+    "全称": "Data & Knowledge Engineering",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/dke/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "DMKD": {
+    "全称": "Data Mining and Knowledge Discovery",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/datamine/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "EJIS": {
+    "全称": "European Journal of Information Systems",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/ejis/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "GeoInformatica": {
+    "全称": "GeoInformatica",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/geoinformatica/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "IPM": {
+    "全称": "Information Processing and Management",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/ipm/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "Information Sciences": {
+    "全称": "Information Sciences",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/isci/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "IS": {
+    "全称": "Information Systems",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/is/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "JASIST": {
+    "全称": "Journal of the Association for Information Science and Technology",
+    "出版社": "Wiley",
+    "网址": "http://dblp.uni-trier.de/db/journals/jasis/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "JWS": {
+    "全称": "Journal of Web Semantics",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/ws/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "KAIS": {
+    "全称": "Knowledge and Information Systems",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/kais/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "DSE": {
+    "全称": "Data Science and Engineering",
+    "出版社": "CCF/SpringerNature",
+    "网址": "https://dblp.org/db/journals/dase/index.html",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "DPD": {
+    "全称": "Distributed and Parallel Databases",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/dpd/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "I&M": {
+    "全称": "Information & Management",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/iam/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IPL": {
+    "全称": "Information Processing Letters",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/ipl/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IR": {
+    "全称": "Information Retrieval Journal",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/ir/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IJCIS": {
+    "全称": "International Journal of Cooperative Information Systems",
+    "出版社": "World Scientific",
+    "网址": "http://dblp.uni-trier.de/db/journals/ijcis/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IJGIS": {
+    "全称": "International Journal of Geographical Information Science",
+    "出版社": "Taylor& Francis",
+    "网址": "http://dblp.uni-trier.de/db/journals/gis/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IJIS": {
+    "全称": "International Journal of Intelligent Systems",
+    "出版社": "Wiley",
+    "网址": "http://dblp.uni-trier.de/db/journals/ijis/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IJKM": {
+    "全称": "International Journal of Knowledge Management",
+    "出版社": "IGI",
+    "网址": "http://dblp.uni-trier.de/db/journals/ijkm/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IJSWIS": {
+    "全称": "International Journal on Semantic Web and Information Systems",
+    "出版社": "IGI",
+    "网址": "http://dblp.uni-trier.de/db/journals/ijswis/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JCIS": {
+    "全称": "Journal of Computer Information Systems",
+    "出版社": "IACIS",
+    "网址": "http://dblp.uni-trier.de/db/journals/jcis/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JDM": {
+    "全称": "Journal of Database Management",
+    "出版社": "IGI-Global",
+    "网址": "http://dblp.uni-trier.de/db/journals/jdm/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JGITM": {
+    "全称": "Journal of Global Information Technology Management",
+    "出版社": "IvyLeague Publishing",
+    "网址": "https://dblp.org/db/journals/jgim/index.html",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JIIS": {
+    "全称": "Journal of Intelligent Information Systems",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/jiis/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JSIS": {
+    "全称": "The Journal of Strategic Information Systems",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/jsis/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TIST": {
+    "全称": "ACM Transactions on Intelligent Systems and Technology",
+    "出版社": "ACM",
+    "网址": "https://dblp.uni-trier.de/db/journals/tist/index.html",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TORS": {
+    "全称": "ACM Transactions on Recommender Systems",
+    "出版社": "ACM",
+    "网址": "https://dblp.uni-trier.de/db/journals/tors/index.html",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "SIGMOD": {
+    "全称": "ACM SIGMOD Conference",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/sigmod/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "SIGKDD": {
+    "全称": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/kdd/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "ICDE": {
+    "全称": "IEEE International Conference on Data Engineering",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/icde/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "SIGIR": {
+    "全称": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/sigir/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "VLDB": {
+    "全称": "International Conference on Very Large Data Bases",
+    "出版社": "Morgan Kaufmann/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/vldb/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "CIKM": {
+    "全称": "ACM International Conference on Information and Knowledge Management",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/tkdd/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "WSDM": {
+    "全称": "ACM International Conference on Web Search and Data Mining",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/tweb/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "PODS": {
+    "全称": "ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/aei/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "DASFAA": {
+    "全称": "International Conference on Database Systems for Advanced Applications",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/dke/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ECML-PKDD": {
+    "全称": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/datamine/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ISWC": {
+    "全称": "IEEE International Semantic Web Conference",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/ejis/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICDM": {
+    "全称": "IEEE International Conference on Data Mining",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/geoinformatica/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICDT": {
+    "全称": "International Conference on Database Theory",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/ipm/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "EDBT": {
+    "全称": "International Conference on Extending Database Technology",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/isci/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "CIDR": {
+    "全称": "Conference on Innovative Data Systems Research",
+    "出版社": "Online Proceeding",
+    "网址": "http://dblp.uni-trier.de/db/journals/is/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "SDM": {
+    "全称": "SIAM International Conference on Data Mining",
+    "出版社": "SIAM",
+    "网址": "http://dblp.uni-trier.de/db/journals/jasis/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "RecSys": {
+    "全称": "ACM Conference on Recommender Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/ws/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "WISE": {
+    "全称": "Web Information Systems Engineering Conference",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/wise/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "APWeb": {
+    "全称": "Asia Pacific Web Conference",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/apweb/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "DEXA": {
+    "全称": "International Conference on Database and Expert System Applications",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/dexa/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ECIR": {
+    "全称": "European Conference on Information Retrieval",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/ecir/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ESWC": {
+    "全称": "Extended Semantic Web Conference",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/esws/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "WebDB": {
+    "全称": "International Workshop on Web and Databases",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/webdb/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ER": {
+    "全称": "International Conference on Conceptual Modeling",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/er/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "MDM": {
+    "全称": "International Conference on Mobile Data Management",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/mdm/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SSDBM": {
+    "全称": "International Conference on Scientific and Statistical Database Management",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/ssdbm/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "WAIM": {
+    "全称": "International Conference on Web Age Information Management",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/waim/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SSTD": {
+    "全称": "International Symposium on Spatial and Temporal Databases",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/ssd/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "PAKDD": {
+    "全称": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/pakdd/",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ADMA": {
+    "全称": "International Conference on Advanced Data Mining and Applications",
+    "出版社": "Springer",
+    "网址": "https://dblp.org/db/conf/adma/index.html",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "WISA": {
+    "全称": "Web Information Systems and Applications",
+    "出版社": "Springer",
+    "网址": "https://dblp.org/db/conf/wisa/index.html",
+    "领域": "数据库/数据挖掘/内容检索",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "TIT": {
+    "全称": "IEEE Transactions on Information Theory",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tit/",
+    "领域": "计算机科学理论",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "IANDC": {
+    "全称": "Information and Computation",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/iandc/",
+    "领域": "计算机科学理论",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "SICOMP": {
+    "全称": "SIAM Journal on Computing",
+    "出版社": "SIAM",
+    "网址": "http://dblp.uni-trier.de/db/journals/siamcomp/",
+    "领域": "计算机科学理论",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TALG": {
+    "全称": "ACM Transactions on Algorithms",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/talg/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TOCL": {
+    "全称": "ACM Transactions on Computational Logic",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/tocl/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TOMS": {
+    "全称": "ACM Transactions on Mathematical Software",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/toms/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "Algorithmica": {
+    "全称": "Algorithmica",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/algorithmica/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "CC_3": {
+    "全称": "Computational Complexity",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/cc/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "FAC": {
+    "全称": "Formal Aspects of Computing",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/fac/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "FMSD": {
+    "全称": "Formal Methods in System Design",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/fmsd/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "INFORMS": {
+    "全称": "INFORMS Journal on Computing",
+    "出版社": "INFORMS",
+    "网址": "http://dblp.uni-trier.de/db/journals/informs/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "JCSS": {
+    "全称": "Journal of Computer and System Sciences",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/jcss/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "JGO": {
+    "全称": "Journal of Global Optimization",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/jgo/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "JSC": {
+    "全称": "Journal of Symbolic Computation",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/jsc/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "MSCS": {
+    "全称": "Mathematical Structures in Computer Science",
+    "出版社": "Cambridge University Press",
+    "网址": "http://dblp.uni-trier.de/db/journals/mscs/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TCS": {
+    "全称": "Theoretical Computer Science",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/tcs/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "ACTA": {
+    "全称": "Acta Informatica",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/acta/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "APAL": {
+    "全称": "Annals of Pure and Applied Logic",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/apal/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "DAM": {
+    "全称": "Discrete Applied Mathematics",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/dam/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "FUIN": {
+    "全称": "Fundamenta Informaticae",
+    "出版社": "IOSPress",
+    "网址": "http://dblp.uni-trier.de/db/journals/fuin/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IPL_2": {
+    "全称": "Information Processing Letters",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/ipl/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JCOMPLEXI TY": {
+    "全称": "Journal of Complexity",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/jc/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "LOGCOM": {
+    "全称": "Journal of Logic and Computation",
+    "出版社": "Oxford UniversityPress",
+    "网址": "http://dblp.uni-trier.de/db/journals/logcom/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JSL": {
+    "全称": "The Journal of Symbolic Logic",
+    "出版社": "Associationfor SymbolicLogic",
+    "网址": "http://dblp.uni-trier.de/db/journals/jsyml/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "LMCS": {
+    "全称": "Logical Methods in Computer Science",
+    "出版社": "LMCS",
+    "网址": "http://dblp.uni-trier.de/db/journals/lmcs/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "SIDMA": {
+    "全称": "SIAM Journal on Discrete Mathematics",
+    "出版社": "SIAM",
+    "网址": "http://dblp.uni-trier.de/db/journals/siamdm/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Theory of Computing Systems": {
+    "全称": "Theory of Computing Systems",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/mst/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TQC": {
+    "全称": "ACM Transactions in Quantum Computing",
+    "出版社": "ACM",
+    "网址": "https://dblp.org/db/journals/tqc/index.html",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "STOC": {
+    "全称": "ACM Symposium on the Theory of Computing",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/stoc/",
+    "领域": "计算机科学理论",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "SODA": {
+    "全称": "ACM-SIAM Symposium on Discrete Algorithms",
+    "出版社": "SIAM",
+    "网址": "http://dblp.uni-trier.de/db/conf/soda/",
+    "领域": "计算机科学理论",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "CAV": {
+    "全称": "International Conference on Computer Aided Verification",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/cav/",
+    "领域": "计算机科学理论",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "FOCS": {
+    "全称": "IEEE Annual Symposium on Foundations of Computer Science",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/focs/",
+    "领域": "计算机科学理论",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "LICS": {
+    "全称": "ACM/IEEE Symposium on Logic in Computer Science",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/lics/",
+    "领域": "计算机科学理论",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "SoCG": {
+    "全称": "International Symposium on Computational Geometry",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/compgeom/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ESA": {
+    "全称": "European Symposium on Algorithms",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/esa/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "CCC": {
+    "全称": "Conference on Computational Complexity",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/coco/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICALP": {
+    "全称": "International Colloquium on Automata, Languages and Programming",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/icalp/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "CADE": {
+    "全称": "Conference on Automated Deduction",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/cade/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "CONCUR": {
+    "全称": "International Conference on Concurrency Theory",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/concur/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "HSCC": {
+    "全称": "International Conference on Hybrid Systems: Computation and Control",
+    "出版社": "Springer/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/hybrid/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "SAT": {
+    "全称": "International Conference on Theory and Applications of Satisfiability Testing",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/sat/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "COCOON": {
+    "全称": "International Computing and Combinatorics Conference",
+    "出版社": "Springer",
+    "网址": "https://dblp.org/db/conf/cocoon/index.html",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "FMCAD": {
+    "全称": "Formal Methods in Computer-Aided Design",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/apal/",
+    "领域": "计算机科学理论",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "CSL": {
+    "全称": "Computer Science Logic",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/acta/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "FSTTCS": {
+    "全称": "Foundations of Software Technology and Theoretical Computer Science",
+    "出版社": "IndianAssociation forResearchin ComputingScience",
+    "网址": "http://dblp.uni-trier.de/db/journals/dam/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "DSAA": {
+    "全称": "IEEE International Conference on Data Science and Advanced Analytics",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/fuin/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICTAC": {
+    "全称": "International Colloquium on Theoretical Aspects of Computing",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/ipl/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "IPCO": {
+    "全称": "International Conference on Integer Programming and Combinatorial Optimization",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/jc/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "FSCD": {
+    "全称": "International Conference on Formal Structures for Computation and Deduction",
+    "出版社": "DagstuhlLeibniz LIPIcs",
+    "网址": "http://dblp.uni-trier.de/db/journals/logcom/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ISAAC": {
+    "全称": "International Symposium on Algorithms and Computation",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/jsyml/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "MFCS": {
+    "全称": "International Conference on Mathematical Foundations of Computer Science",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/lmcs/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "STACS": {
+    "全称": "Symposium on Theoretical Aspects of Computer Science",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/siamdm/",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SETTA": {
+    "全称": "International Symposium on Software Engineering: Theories, Tools, and Applications",
+    "出版社": "Springer",
+    "网址": "https://dblp.uni-trier.de/db/conf/setta/index.html",
+    "领域": "计算机科学理论",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "TOG": {
+    "全称": "ACM Transactions on Graphics",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/tog/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TIP": {
+    "全称": "IEEE Transactions on Image Processing",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tip/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TVCG": {
+    "全称": "IEEE Transactions on Visualization and Computer Graphics",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tvcg/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TMM": {
+    "全称": "IEEE Transactions on Multimedia",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tmm/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TOMM_2": {
+    "全称": "ACM Transactions on Multimedia Computing, Communications and Applications",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/tomccap/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "CAGD": {
+    "全称": "Computer Aided Geometric Design",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/cagd/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "CGF": {
+    "全称": "Computer Graphics Forum",
+    "出版社": "Wiley",
+    "网址": "http://dblp.uni-trier.de/db/journals/cgf/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "CAD": {
+    "全称": "Computer-Aided Design",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/cad/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TCSVT": {
+    "全称": "IEEE Transactions on Circuits and Systems for Video Technology",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tcsv/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "JASA": {
+    "全称": "The Journal of the Acoustical Society of America",
+    "出版社": "AIP",
+    "网址": "http://scitation.aip.org/content/asa/journal/jasa",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "SIIMS": {
+    "全称": "SIAM Journal on Imaging Sciences",
+    "出版社": "SIAM",
+    "网址": "http://dblp.uni-trier.de/db/journals/siamis/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "SPECOM": {
+    "全称": "Speech Communication",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/speech/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "CVMJ": {
+    "全称": "Computational Visual Media",
+    "出版社": "Tsinghua University/Springer",
+    "网址": "https://dblp.org/db/journals/cvm/index.html",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "CGTA": {
+    "全称": "Computational Geometry: Theory and Applications",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/comgeo/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "CAVW": {
+    "全称": "Computer animation & virtual worlds",
+    "出版社": "Wiley",
+    "网址": "https://dblp.org/db/journals/jvca/index.html",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "C&G": {
+    "全称": "Computers & Graphics",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/cg/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "DCG": {
+    "全称": "Discrete & Computational Geometry",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/dcg/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "SPL": {
+    "全称": "IEEE Signal Processing Letters",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/spl/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IET-IPR": {
+    "全称": "IET Image Processing",
+    "出版社": "IET",
+    "网址": "http://dblp.uni-trier.de/db/journals/iet-ipr/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JVCIR": {
+    "全称": "Journal of Visual Communication and Image Representation",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/jvcir/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "MS": {
+    "全称": "Multimedia Systems",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/mms/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "MTA": {
+    "全称": "Multimedia Tools and Applications",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/mta/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "SIGPRO": {
+    "全称": "Signal Processing",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/sigpro/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IMAGE": {
+    "全称": "Signal Processing: Image Communication",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/spic/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TVC": {
+    "全称": "The Visual Computer",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/vc/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "VI": {
+    "全称": "Visual Informatics",
+    "出版社": "浙江大学出 版社",
+    "网址": "https://dblp.uni-trier.de/db/journals/vi/index.html",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "VRIH": {
+    "全称": "Virtual Reality & Intelligent Hardware",
+    "出版社": "中国科技出 版社/北京航 空航天大学",
+    "网址": "https://dblp.uni-trier.de/db/journals/vrih/index.html",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "GMOD": {
+    "全称": "Graphical Models",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/cvgip/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "ACM MM": {
+    "全称": "ACM International Conference on Multimedia",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/mm/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "SIGGRAPH": {
+    "全称": "ACM Special Interest Group on Computer Graphics",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/siggraph/index.html",
+    "领域": "计算机图形学与多媒体",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "VR": {
+    "全称": "IEEE Virtual Reality",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/vr/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "IEEE VIS": {
+    "全称": "IEEE Visualization Conference",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/visualization/index.html",
+    "领域": "计算机图形学与多媒体",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "ICMR": {
+    "全称": "ACM SIGMM International Conference on Multimedia Retrieval",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/mir/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "I3D": {
+    "全称": "ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/si3d/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "SCA": {
+    "全称": "ACM SIGGRAPH/Eurographics Symposium on Computer Animation",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/sca/index.html",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "DCC": {
+    "全称": "Data Compression Conference",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/dcc/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "Eurographics": {
+    "全称": "Annual Conference of the European Association for Computer Graphics",
+    "出版社": "Wiley/Blackwell",
+    "网址": "http://dblp.uni-trier.de/db/conf/eurographics/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "EuroVis": {
+    "全称": "Eurographics Conference on Visualization",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/vissym/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "SGP": {
+    "全称": "Eurographics Symposium on Geometry Processing",
+    "出版社": "Wiley/Blackwell",
+    "网址": "http://dblp.uni-trier.de/db/conf/sgp/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "EGSR": {
+    "全称": "Eurographics Symposium on Rendering",
+    "出版社": "Wiley/Blackwell",
+    "网址": "http://dblp.uni-trier.de/db/conf/rt/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICASSP": {
+    "全称": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/icassp/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICME": {
+    "全称": "IEEE International Conference on Multimedia & Expo",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/icmcs/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ISMAR": {
+    "全称": "International Symposium on Mixed and Augmented Reality",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/ismar/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "PG": {
+    "全称": "Pacific Conference onComputer Graphics and Applications",
+    "出版社": "Wiley/Blackwell",
+    "网址": "http://dblp.uni-trier.de/db/conf/pg/index.html",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "SPM": {
+    "全称": "Symposium on Solid and Physical Modeling",
+    "出版社": "SMA/Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/conf/sma/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "INTER-SPEECH": {
+    "全称": "Conference of the International Speech Communication Association",
+    "出版社": "ISCA",
+    "网址": "http://dblp.uni-trier.de/db/conf/interspeech/index.html",
+    "领域": "计算机图形学与多媒体",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "VRST": {
+    "全称": "ACM Symposium on Virtual Reality Software and Technology",
+    "出版社": "ACM",
+    "网址": "http://dblp2.uni-trier.de/db/conf/vrst/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "CASA": {
+    "全称": "International Conference on Computer Animation and Social Agents",
+    "出版社": "Wiley",
+    "网址": "http://dblp.uni-trier.de/db/conf/ca/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "CGI": {
+    "全称": "Computer Graphics International",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/cgi/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "GMP": {
+    "全称": "Geometric Modeling and Processing",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/conf/gmp/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "PacificVis": {
+    "全称": "IEEE Pacific Visualization Symposium",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/apvis/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "3DV": {
+    "全称": "International Conference on 3D Vision",
+    "出版社": "IEEE",
+    "网址": "https://dblp.uni-trier.de/db/conf/3dim/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "CAD/Graphics": {
+    "全称": "International Conference on Computer-Aided Design and Computer Graphics Processing",
+    "出版社": "IEEE",
+    "网址": "https://dblp.uni-trier.de/db/conf/cadgraphics/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICIP": {
+    "全称": "IEEE International Conference on Image Processing",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/icip/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "MMM": {
+    "全称": "International Conference on Multimedia Modeling",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/mmm/index.html",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "MMAsia": {
+    "全称": "ACM Multimedia Asia",
+    "出版社": "ACM",
+    "网址": "https://dblp.uni-trier.de/db/conf/mmasia/index.html",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SMI": {
+    "全称": "Shape Modeling International",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/smi/",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICVRV": {
+    "全称": "International Conference on Virtual Reality and Visualization",
+    "出版社": "IEEE",
+    "网址": "https://www.computer.org/csdl/proceedings/1800579",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "CVM": {
+    "全称": "Computational Visual Media",
+    "出版社": "Tsinghua University",
+    "网址": "https://dblp.org/db/conf/cvm/index.html",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "PRCV": {
+    "全称": "Chinese Conference on Pattern Recognition and Computer Vision",
+    "出版社": "Springer",
+    "网址": "https://dblp.org/db/conf/prcv/index.html",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICIG": {
+    "全称": "International Conference on Image and Graphics",
+    "出版社": "Springer",
+    "网址": "https://dblp.uni-trier.de/db/conf/icig/index.html",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "NCMMSC": {
+    "全称": "National Conference on Man-Machine Speech Communication",
+    "出版社": "CCF/中国中 文信息学会",
+    "网址": "https://dblp.uni-trier.de/search?q=NCMMSC",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ASRU": {
+    "全称": "Automatic Speech Recognition and Understanding Workshop",
+    "出版社": "IEEESLTC",
+    "网址": "https://dblp.uni-trier.de/db/conf/asru/index.html",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SLT": {
+    "全称": "Spoken Language Technology",
+    "出版社": "IEEESLTC",
+    "网址": "https://dblp.uni-trier.de/db/conf/slt/index.html",
+    "领域": "计算机图形学与多媒体",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "AI": {
+    "全称": "Artificial Intelligence",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/conf/mm/",
+    "领域": "人工智能",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TPAMI": {
+    "全称": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/siggraph/index.html",
+    "领域": "人工智能",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "IJCV": {
+    "全称": "International Journal of Computer Vision",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/vr/",
+    "领域": "人工智能",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "JMLR": {
+    "全称": "Journal of Machine Learning Research",
+    "出版社": "MITPress",
+    "网址": "http://dblp.uni-trier.de/db/conf/visualization/index.html",
+    "领域": "人工智能",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "TAP": {
+    "全称": "ACM Transactions on Applied Perception",
+    "出版社": "ACM",
+    "网址": "http://dblp2.uni-trier.de/db/conf/vrst/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "AAMAS": {
+    "全称": "Autonomous Agents and Multi-Agent Systems",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/ca/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "Computational Linguistics": {
+    "全称": "Computational Linguistics",
+    "出版社": "MITPress",
+    "网址": "http://dblp.uni-trier.de/db/conf/cgi/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "CVIU": {
+    "全称": "Computer Vision and Image Understanding",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/conf/interspeech/index.html",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "DKE_2": {
+    "全称": "Data & Knowledge Engineering",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/conf/gmp/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "Evolutionary Computation": {
+    "全称": "Evolutionary Computation",
+    "出版社": "MITPress",
+    "网址": "http://dblp.uni-trier.de/db/conf/apvis/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TAC": {
+    "全称": "IEEE Transactions on Affective Computing",
+    "出版社": "IEEE",
+    "网址": "https://dblp.uni-trier.de/db/conf/3dim/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TASLP": {
+    "全称": "IEEE/ACM Transactions on Audio, Speech and Language Processing",
+    "出版社": "IEEE",
+    "网址": "https://dblp.uni-trier.de/db/conf/cadgraphics/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "IEEE Transactions on Cybernetics": {
+    "全称": "IEEE Transactions on Cybernetics",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/icip/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TEC": {
+    "全称": "IEEE Transactions on Evolutionary Computation",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/mmm/index.html",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TFS": {
+    "全称": "IEEE Transactions on Fuzzy Systems",
+    "出版社": "IEEE",
+    "网址": "https://dblp.uni-trier.de/db/conf/mmasia/index.html",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TNNLS": {
+    "全称": "IEEE Transactions on Neural Networks and learning systems",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/smi/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "IJAR": {
+    "全称": "International Journal of Approximate Reasoning",
+    "出版社": "Elsevier",
+    "网址": "https://www.computer.org/csdl/proceedings/1800579",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "JAIR": {
+    "全称": "Journal of Artificial Intelligence Research",
+    "出版社": "AAAI",
+    "网址": "http://dblp.uni-trier.de/db/journals/tomccap/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "Journal of Automated Reasoning": {
+    "全称": "Journal of Automated Reasoning",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/cagd/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "JSLHR": {
+    "全称": "Journal of Speech, Language, and Hearing Research",
+    "出版社": "AmericanSpeech- LanguageHearing Association",
+    "网址": "http://dblp.uni-trier.de/db/journals/cgf/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "Machine Learning": {
+    "全称": "Machine Learning",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/cad/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "Neural Computation": {
+    "全称": "Neural Computation",
+    "出版社": "MITPress",
+    "网址": "http://dblp.uni-trier.de/db/journals/cvgip/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "Neural Networks": {
+    "全称": "Neural Networks",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/tcsv/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "PR": {
+    "全称": "Pattern Recognition",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/tmm/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TACL": {
+    "全称": "Transactions of the Association for Computational Linguistics",
+    "出版社": "TheAssociationfor Computational Linguistics",
+    "网址": "http://scitation.aip.org/content/asa/journal/jasa",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TALLIP": {
+    "全称": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/talip/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Applied Intelligence": {
+    "全称": "Applied Intelligence",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/apin/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "AIM": {
+    "全称": "Artificial Intelligence in Medicine",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/artmed/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Artificial Life": {
+    "全称": "Artificial Life",
+    "出版社": "MITPress",
+    "网址": "http://dblp.uni-trier.de/db/journals/alife/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Computational Intelligence": {
+    "全称": "Computational Intelligence",
+    "出版社": "Wiley",
+    "网址": "http://dblp.uni-trier.de/db/journals/ci/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Computer Speech & Language": {
+    "全称": "Computer Speech & Language",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/csl/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Connection Science": {
+    "全称": "Connection Science",
+    "出版社": "Taylor& Francis",
+    "网址": "http://dblp.uni-trier.de/db/journals/connection/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "DSS": {
+    "全称": "Decision Support Systems",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/dss/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "EAAI": {
+    "全称": "Engineering Applications of Artificial",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/eaai/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Intelligence Expert Systems": {
+    "全称": "Intelligence Expert Systems",
+    "出版社": "Blackwell/Wiley",
+    "网址": "http://dblp.uni-trier.de/db/journals/es/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "ESWA": {
+    "全称": "Expert Systems with Applications",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/eswa/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Fuzzy Sets and Systems": {
+    "全称": "Fuzzy Sets and Systems",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/fss/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TG": {
+    "全称": "IEEE Transactions on Games",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tciaig/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IET-CVI": {
+    "全称": "IET Computer Vision",
+    "出版社": "IET",
+    "网址": "https://dblp.org/db/journals/iet-cvi/index.html",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IET Signal Processing": {
+    "全称": "IET Signal Processing",
+    "出版社": "IET",
+    "网址": "https://dblp.org/db/journals/iet-spr/index.html",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IVC": {
+    "全称": "Image and Vision Computing",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/ivc/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IDA": {
+    "全称": "Intelligent Data Analysis",
+    "出版社": "IOSPress",
+    "网址": "http://dblp.uni-trier.de/db/journals/ida/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IJCIA": {
+    "全称": "International Journal of Computational Intelligence and Applications",
+    "出版社": "World Scientific",
+    "网址": "http://dblp.uni-trier.de/db/journals/ijcia/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IJIS_2": {
+    "全称": "International Journal of Intelligent Systems",
+    "出版社": "Wiley",
+    "网址": "http://dblp.uni-trier.de/db/journals/ijis/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IJNS": {
+    "全称": "International Journal of Neural Systems",
+    "出版社": "World Scientific",
+    "网址": "http://dblp.uni-trier.de/db/journals/ijns/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IJPRAI": {
+    "全称": "International Journal of Pattern Recognition and Artificial Intelligence",
+    "出版社": "World Scientific",
+    "网址": "http://dblp.uni-trier.de/db/journals/ijprai/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IJUFKS": {
+    "全称": "International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems",
+    "出版社": "World Scientific",
+    "网址": "https://dblp.uni-trier.de/db/journals/ijufks/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IJDAR": {
+    "全称": "International Journal on Document Analysis and Recognition",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/ijdar/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JETAI": {
+    "全称": "Journal of Experimental and Theoretical Artificial Intelligence",
+    "出版社": "Taylor& Francis",
+    "网址": "http://dblp.uni-trier.de/db/journals/jetai/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "KBS": {
+    "全称": "Knowledge-Based Systems",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/kbs/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Machine Translation": {
+    "全称": "Machine Translation",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/mt/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Machine Vision and Applications": {
+    "全称": "Machine Vision and Applications",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/mva/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Natural Computing": {
+    "全称": "Natural Computing",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/nc/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "NLE": {
+    "全称": "Natural Language Engineering",
+    "出版社": "Cambridge University Press",
+    "网址": "http://dblp.uni-trier.de/db/journals/nle/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "NCA": {
+    "全称": "Neural Computing and Applications",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/nca/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "NPL": {
+    "全称": "Neural Processing Letters",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/npl/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Neurocomputing": {
+    "全称": "Neurocomputing",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/ijon/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "PAA": {
+    "全称": "Pattern Analysis and Applications",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/paa/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "PRL": {
+    "全称": "Pattern Recognition Letters",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/prl/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Soft Computing": {
+    "全称": "Soft Computing",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/soco/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "WI": {
+    "全称": "Web Intelligence",
+    "出版社": "IOSPress",
+    "网址": "http://dblp.uni-trier.de/db/journals/wias/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TIIS": {
+    "全称": "ACM Transactions on Interactive Intelligent Systems",
+    "出版社": "ACM",
+    "网址": "https://dblp.org/db/journals/tiis/index.html",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TELO": {
+    "全称": "ACM Transactions on Evolutionary Learning and Optimization",
+    "出版社": "ACM",
+    "网址": "https://dblp.uni-trier.de/db/journals/telo/index.html",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JATS": {
+    "全称": "ACM Journal on Autonomous Transportation Systems",
+    "出版社": "ACM",
+    "网址": "",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "AAAI": {
+    "全称": "AAAI Conference on Artificial Intelligence",
+    "出版社": "AAAI",
+    "网址": "http://dblp.uni-trier.de/db/conf/aaai/",
+    "领域": "人工智能",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "NeurIPS": {
+    "全称": "Conference on Neural Information Processing Systems",
+    "出版社": "MITPress",
+    "网址": "http://dblp.uni-trier.de/db/conf/nips/",
+    "领域": "人工智能",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "ACL": {
+    "全称": "Annual Meeting of the Association for Computational Linguistics",
+    "出版社": "ACL",
+    "网址": "http://dblp.uni-trier.de/db/conf/acl/",
+    "领域": "人工智能",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "CVPR": {
+    "全称": "IEEE/CVF Computer Vision and Pattern Recognition Conference",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/cvpr/",
+    "领域": "人工智能",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "ICCV": {
+    "全称": "International Conference on Computer Vision",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/iccv/",
+    "领域": "人工智能",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "ICML": {
+    "全称": "International Conference on Machine Learning",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/icml/",
+    "领域": "人工智能",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "ICLR": {
+    "全称": "International Conference on Learning Representations",
+    "出版社": "OpenReview",
+    "网址": "https://dblp.uni-trier.de/db/conf/iclr/index.html",
+    "领域": "人工智能",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "COLT": {
+    "全称": "Annual Conference on Computational Learning Theory",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/colt/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "EMNLP": {
+    "全称": "Conference on Empirical Methods in Natural Language Processing",
+    "出版社": "ACL",
+    "网址": "http://dblp.uni-trier.de/db/conf/emnlp/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ECAI": {
+    "全称": "European Conference on Artificial Intelligence",
+    "出版社": "IOSPress",
+    "网址": "http://dblp.uni-trier.de/db/conf/ecai/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ECCV": {
+    "全称": "European Conference on Computer Vision",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/eccv/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICRA": {
+    "全称": "IEEE International Conference on Robotics and Automation",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/icra/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICAPS": {
+    "全称": "International Conference on Automated Planning and Scheduling",
+    "出版社": "AAAI",
+    "网址": "http://dblp.uni-trier.de/db/conf/aips/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICCBR": {
+    "全称": "International Conference on Case-Based Reasoning",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/iccbr/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "COLING": {
+    "全称": "International Conference on Computational Linguistics",
+    "出版社": "InternationalCommittee onComputational Linguistics",
+    "网址": "http://dblp.uni-trier.de/db/conf/coling/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "KR": {
+    "全称": "International Conference on Principles of Knowledge Representation and Reasoning",
+    "出版社": "MorganKaufmann",
+    "网址": "http://dblp.uni-trier.de/db/conf/kr/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "UAI": {
+    "全称": "Conference on Uncertainty in Artificial Intelligence",
+    "出版社": "AUAI",
+    "网址": "http://dblp.uni-trier.de/db/conf/uai/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "AAMAS_2": {
+    "全称": "International Joint Conference on Autonomous Agents and Multi-agent Systems",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni- trier.de/db/conf/atal/index.html",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "PPSN": {
+    "全称": "Parallel Problem Solving from Nature",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/ppsn/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "NAACL": {
+    "全称": "North American Chapter of the Association for Computational Linguistics",
+    "出版社": "Associationfor ComputationalLinguistics",
+    "网址": "http://dblp.uni-trier.de/db/conf/naacl/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "IJCAI": {
+    "全称": "International Joint Conference on Artificial Intelligence",
+    "出版社": "MorganKaufmann",
+    "网址": "http://dblp.uni-trier.de/db/conf/ijcai/",
+    "领域": "人工智能",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "AISTATS": {
+    "全称": "International Conference on Artificial Intelligence and Statistics",
+    "出版社": "JMLR",
+    "网址": "http://dblp.uni-trier.de/db/conf/aistats/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ACCV": {
+    "全称": "Asian Conference on Computer Vision",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/accv/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ACML": {
+    "全称": "Asian Conference on Machine Learning",
+    "出版社": "JMLR",
+    "网址": "http://dblp.uni-trier.de/db/conf/acml/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "BMVC": {
+    "全称": "British Machine Vision Conference",
+    "出版社": "BritishMachine VisionAssociation",
+    "网址": "http://dblp.uni-trier.de/db/conf/bmvc/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "NLPCC": {
+    "全称": "CCF International Conference on Natural Language Processing and Chinese Computing",
+    "出版社": "Springer",
+    "网址": "https://dblp.uni-trier.de/db/conf/nlpcc/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "CoNLL": {
+    "全称": "Conference on Computational Natural Language Learning",
+    "出版社": "Associationfor Computational Linguistics",
+    "网址": "http://dblp.uni-trier.de/db/conf/conll",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "GECCO": {
+    "全称": "Genetic and Evolutionary Computation Conference",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/gecco/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICTAI": {
+    "全称": "IEEE International Conference on Tools with Artificial Intelligence",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/ictai/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "IROS": {
+    "全称": "IEEE\\RSJ International Conference on Intelligent Robots and Systems",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/iros/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ALT": {
+    "全称": "International Conference on Algorithmic Learning Theory",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/alt/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICANN": {
+    "全称": "International Conference on Artificial Neural Networks",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/icann/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "FG": {
+    "全称": "IEEE International Conference on Automatic Face and Gesture Recognition",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/fgr/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICDAR": {
+    "全称": "International Conference on Document Analysis and Recognition",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/icdar/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ILP": {
+    "全称": "International Conference on Inductive Logic Programming",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/ilp/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "KSEM": {
+    "全称": "International conference on Knowledge Science, Engineering and Management",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/ksem/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICONIP": {
+    "全称": "International Conference on Neural Information Processing",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/iconip/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICPR": {
+    "全称": "International Conference on Pattern Recognition",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/icpr/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "IJCB": {
+    "全称": "International Joint Conference on Biometrics",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/icb/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "IJCNN": {
+    "全称": "International Joint Conference on Neural Networks",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/ijcnn/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "PRICAI": {
+    "全称": "Pacific Rim International Conference on Artificial Intelligence",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/pricai/",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "IEEE CEC": {
+    "全称": "Congress on Evolutionary Computation",
+    "出版社": "IEEE",
+    "网址": "https://dblp.uni-trier.de/db/conf/cec/index.html",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "DAI": {
+    "全称": "International Conference on Distributed Artificial Intelligence",
+    "出版社": "ACM/Springer",
+    "网址": "https://dblp.uni-trier.de/db/conf/dai2/index.html",
+    "领域": "人工智能",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "TOCHI": {
+    "全称": "ACM Transactions on Computer-Human Interaction",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/tochi/",
+    "领域": "人机交互与普适计算",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "IJHCS": {
+    "全称": "International Journal of Human-Computer Studies",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/ijmms/",
+    "领域": "人机交互与普适计算",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "CSCW": {
+    "全称": "Computer Supported Cooperative Work",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/cscw/",
+    "领域": "人机交互与普适计算",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "HCI": {
+    "全称": "Human-Computer Interaction",
+    "出版社": "Taylor& Francis",
+    "网址": "http://dblp.uni-trier.de/db/journals/hhci/",
+    "领域": "人机交互与普适计算",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "IEEE Transactions on Human-Machine Systems": {
+    "全称": "IEEE Transactions on Human-Machine Systems",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/thms/",
+    "领域": "人机交互与普适计算",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "IWC": {
+    "全称": "Interacting with Computers",
+    "出版社": "Oxford University Press",
+    "网址": "http://dblp.uni-trier.de/db/journals/iwc/",
+    "领域": "人机交互与普适计算",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "IJHCI": {
+    "全称": "International Journal of Human-Computer Interaction",
+    "出版社": "Taylor& Francis",
+    "网址": "http://dblp.uni-trier.de/db/journals/ijhci/",
+    "领域": "人机交互与普适计算",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "UMUAI": {
+    "全称": "User Modeling and User-Adapted Interaction",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/umuai/",
+    "领域": "人机交互与普适计算",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TSMC": {
+    "全称": "IEEE Transactions on Systems, Man,and Cybernetics: Systems",
+    "出版社": "IEEE",
+    "网址": "https://dblp.org/db/journals/tsmc/tsmc12.html",
+    "领域": "人机交互与普适计算",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "CCF TPCI": {
+    "全称": "CCF Transactions on Pervasive Computing and Interaction",
+    "出版社": "CCF/Springer",
+    "网址": "https://dblp.uni-trier.de/db/journals/ccftpci/index.html",
+    "领域": "人机交互与普适计算",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "BIT": {
+    "全称": "Behaviour & Information Technology",
+    "出版社": "Taylor& Francis",
+    "网址": "http://dblp.uni-trier.de/db/journals/behaviourIT/",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "PUC": {
+    "全称": "Personal and Ubiquitous Computing",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/puc/",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "PMC": {
+    "全称": "Pervasive and Mobile Computing",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/percom/",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "PACMHCI": {
+    "全称": "Proceedings of the ACM on Human-Computer Interaction",
+    "出版社": "ACM",
+    "网址": "https://dblp.org/db/journals/pacmhci/index.html",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "THRI": {
+    "全称": "ACM Transactions on Human-Robot Interaction",
+    "出版社": "ACM",
+    "网址": "https://dblp.uni-trier.de/db/journals/thri/index.html",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "CSCW_2": {
+    "全称": "ACM Conference On Computer-Supported Cooperative Work And Social Computing",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/cscw",
+    "领域": "人机交互与普适计算",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "CHI": {
+    "全称": "ACM Conference on Human Factors in Computing Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/chi",
+    "领域": "人机交互与普适计算",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "UbiComp": {
+    "全称": "ACM international joint conference on Pervasive and Ubiquitous Computing",
+    "出版社": "ACM",
+    "网址": "https://dblp.uni-trier.de/db/conf/huc/",
+    "领域": "人机交互与普适计算",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "UIST": {
+    "全称": "ACM Symposium on User Interface Software and Technology",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/uist/",
+    "领域": "人机交互与普适计算",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "GROUP": {
+    "全称": "ACM International Conference on Supporting Group Work",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/group/",
+    "领域": "人机交互与普适计算",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "IUI": {
+    "全称": "ACM International Conference on Intelligent User Interfaces",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/iui/",
+    "领域": "人机交互与普适计算",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ISS": {
+    "全称": "ACM International Conference on Interactive Surfaces and Spaces",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/tabletop/",
+    "领域": "人机交互与普适计算",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ECSCW": {
+    "全称": "European Conference on Computer Supported Cooperative Work",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/ecscw/",
+    "领域": "人机交互与普适计算",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "PERCOM": {
+    "全称": "IEEE International Conference on Pervasive Computing and Communications",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/percom/",
+    "领域": "人机交互与普适计算",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "MobileHCI": {
+    "全称": "ACM International Conference on Mobile Human- Computer Interaction",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/mhci/",
+    "领域": "人机交互与普适计算",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ICWSM": {
+    "全称": "The International AAAI Conference on Web and Social Media",
+    "出版社": "AAAI",
+    "网址": "https://dblp.org/db/conf/icwsm/index.html",
+    "领域": "人机交互与普适计算",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "DIS": {
+    "全称": "ACM SIGCHI Conference on Designing Interactive Systems",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/ACMdis",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICMI": {
+    "全称": "ACM International Conference on Multimodal Interaction",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/icmi/",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ASSETS": {
+    "全称": "International ACM SIGACCESS Conference on Computers and Accessibility",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/assets",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "GI": {
+    "全称": "Graphics Interface",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/graphicsinterface/",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "UIC": {
+    "全称": "IEEE International Conference on Ubiquitous Intelligence and Computing",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/uic/",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "IEEE World Haptics Conference": {
+    "全称": "IEEE World Haptics Conference",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/haptics/",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "INTERACT": {
+    "全称": "International Conference on Human- Computer Interaction of International Federation for Information Processing",
+    "出版社": "IFIP",
+    "网址": "http://dblp.uni-trier.de/db/conf/interact/",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "IDC": {
+    "全称": "ACM Interaction Design and Children",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/acmidc/",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "CollaborateCom": {
+    "全称": "International Conference on Collaborative Computing: Networking, Applications and Worksharing",
+    "出版社": "Springer",
+    "网址": "https://dblp.uni-trier.de/db/conf/colcom/",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "CSCWD": {
+    "全称": "International Conference on Computer Supported Cooperative Work in Design",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/cscwd/",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "CoopIS": {
+    "全称": "International Conference on Cooperative Information Systems",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/coopis/",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "MobiQuitous": {
+    "全称": "International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/mobiquitous/",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "AVI": {
+    "全称": "International Working Conference on Advanced Visual Interfaces",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/avi/",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "GPC": {
+    "全称": "Conference on Green, Pervasive and Cloud Computing",
+    "出版社": "Springer",
+    "网址": "https://dblp.uni-trier.de/db/conf/gpc/index.html",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICXR": {
+    "全称": "CCF International Conference on Extended Reality",
+    "出版社": "Springer",
+    "网址": "https://dblp.uni-trier.de/db/conf/icxr/index.html",
+    "领域": "人机交互与普适计算",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "JACM": {
+    "全称": "Journal of the ACM",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/jacm/",
+    "领域": "交叉/综合/新兴",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "Proc. IEEE": {
+    "全称": "Proceedings of the IEEE",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/pieee/",
+    "领域": "交叉/综合/新兴",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "SCIS": {
+    "全称": "Science China Information Sciences",
+    "出版社": "ScienceinChina Press/Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/chinaf/",
+    "领域": "交叉/综合/新兴",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "Bioinformatics": {
+    "全称": "Bioinformatics",
+    "出版社": "OxfordUniversity Press",
+    "网址": "http://dblp.uni-trier.de/db/journals/bioinformatics/",
+    "领域": "交叉/综合/新兴",
+    "等级": "A",
+    "类型": "期刊"
+  },
+  "Briefings in Bioinformatics": {
+    "全称": "Briefings in Bioinformatics",
+    "出版社": "OxfordUniversity Press",
+    "网址": "http://dblp.uni-trier.de/db/journals/bib/",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "Cognition": {
+    "全称": "Cognition",
+    "出版社": "Elsevier",
+    "网址": "http://www.journals.elsevier.com/cognition/",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TASAE": {
+    "全称": "IEEE Transactions on Automation Science and Engineering",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tase/",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TGARS": {
+    "全称": "IEEE Transactions on Geoscience and Remote Sensing",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tgrs/",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TITS": {
+    "全称": "IEEE Transactions on Intelligent Transportation Systems",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tits/",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TMI": {
+    "全称": "IEEE Transactions on Medical Imaging",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/tmi/",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TR": {
+    "全称": "IEEE Transactions on Robotics",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/trob/",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "TCBB": {
+    "全称": "IEEE/ACM Transactions on Computational Biology and Bioinformatics",
+    "出版社": "IEEE/ACM",
+    "网址": "http://dblp.uni-trier.de/db/journals/tcbb/",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "JCST": {
+    "全称": "Journal of Computer Science and Technology",
+    "出版社": "SCIENCE PRESS/Springer",
+    "网址": "http://dblp.uni-trier.de/db/journals/jcst/",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "JAMIA": {
+    "全称": "Journal of the American Medical Informatics Association",
+    "出版社": "BMJJournals",
+    "网址": "http://dblp.uni-trier.de/db/journals/jamia/",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "PLOS Computational Biology": {
+    "全称": "PLOS Computational Biology",
+    "出版社": "PublicLibraryof Science",
+    "网址": "http://dblp.uni-trier.de/db/journals/ploscb/",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "The Computer Journal": {
+    "全称": "The Computer Journal",
+    "出版社": "OxfordUniversity Press",
+    "网址": "http://dblp.uni-trier.de/db/journals/cj/",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "WWW": {
+    "全称": "World Wide Web",
+    "出版社": "Springer",
+    "网址": "https://dblp.org/db/journals/www/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "FCS": {
+    "全称": "Frontiers of Computer Science",
+    "出版社": "HigherEducation Press",
+    "网址": "http://dblp.uni-trier.de/db/journals/fcsc/",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "BCRA": {
+    "全称": "Blockchain: Research and Applications",
+    "出版社": "浙江大学出版社 /Elsevier",
+    "网址": "https://dblp.uni-trier.de/search?q=BCRA",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "期刊"
+  },
+  "BMC Bioinformatics": {
+    "全称": "BMC Bioinformatics",
+    "出版社": "BioMedCentral",
+    "网址": "http://dblp.uni-trier.de/db/journals/bmcbi/",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Cybernetics and Systems": {
+    "全称": "Cybernetics and Systems",
+    "出版社": "Taylor&Francis",
+    "网址": "http://dblp.uni-trier.de/db/journals/cas/",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IEEE Geoscience and Remote Sensing Letters": {
+    "全称": "IEEE Geoscience and Remote Sensing Letters",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/lgrs/",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JBHI": {
+    "全称": "IEEE Journal of Biomedical and Health Informatics",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/journals/titb/",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TBD": {
+    "全称": "IEEE Transactions on Big Data",
+    "出版社": "IEEE",
+    "网址": "https://dblp.uni-trier.de/db/journals/tbd/",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IET Intelligent Transport Systems": {
+    "全称": "IET Intelligent Transport Systems",
+    "出版社": "IET",
+    "网址": "http://digital-library.theiet.org/content/journals/iet- its",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "JBI": {
+    "全称": "Journal of Biomedical Informatics Informatics",
+    "出版社": "Elsevier",
+    "网址": "https://dblp.uni-trier.de/db/journals/jbi/",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "Medical Image Analysis": {
+    "全称": "Medical Image Analysis",
+    "出版社": "Elsevier",
+    "网址": "http://dblp.uni-trier.de/db/journals/mia/",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TII": {
+    "全称": "IEEE Transactions on Industrial Informatics",
+    "出版社": "IEEE",
+    "网址": "https://dblp.org/db/journals/tii/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TCPS": {
+    "全称": "ACM Transactions on Cyber-Physical Systems",
+    "出版社": "ACM",
+    "网址": "https://dblp.org/db/journals/tcps/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TOCE": {
+    "全称": "ACM Transactions on Computing Education",
+    "出版社": "ACM",
+    "网址": "https://dblp.org/db/journals/jeric/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "FITEE": {
+    "全称": "Frontiers of Information Technology & Electronic Engineering",
+    "出版社": "Springer",
+    "网址": "https://dblp.org/db/journals/jzusc/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "TCSS": {
+    "全称": "IEEE Transactions on Computational Social Systems",
+    "出版社": "IEEE",
+    "网址": "https://dblp.org/db/journals/tcss/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "IEEE Transactions on Reliability": {
+    "全称": "IEEE Transactions on Reliability",
+    "出版社": "IEEE",
+    "网址": "https://dblp.org/db/journals/tr/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "HEALTH": {
+    "全称": "ACM Transactions on Computing for Healthcare",
+    "出版社": "ACM",
+    "网址": "https://dblp.uni- trier.de/db/journals/health/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "ACM DLT": {
+    "全称": "ACM Distributed Ledger Technologies: Research and Practice",
+    "出版社": "ACM",
+    "网址": "https://dblp.uni- trier.de/db/journals/distribledger/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "期刊"
+  },
+  "WWW_2": {
+    "全称": "International World Wide Web Conference",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/www/",
+    "领域": "交叉/综合/新兴",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "RTSS": {
+    "全称": "IEEE Real-Time Systems Symposium",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/rtss/",
+    "领域": "交叉/综合/新兴",
+    "等级": "A",
+    "类型": "会议"
+  },
+  "CogSci": {
+    "全称": "Annual Meeting of the Cognitive Science Society",
+    "出版社": "Psychology Press",
+    "网址": "https://dblp.uni-trier.de/db/conf/cogsci/",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "BIBM": {
+    "全称": "IEEE International Conference on Bioinformatics and Biomedicine",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/bibm/",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "EMSOFT": {
+    "全称": "International Conference on Embedded Software",
+    "出版社": "IEEE/ACM /IFIP",
+    "网址": "http://dblp.uni-trier.de/db/conf/emsoft/",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "ISMB": {
+    "全称": "International conference on Intelligent Systems for Molecular Biology",
+    "出版社": "Oxford Journals",
+    "网址": "https://dblp.org/db/conf/ismb/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "RECOMB": {
+    "全称": "Annual International Conference on Research in Computational Molecular Biology",
+    "出版社": "Springer",
+    "网址": "http://dblp.uni-trier.de/db/conf/recomb/",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "MICCAI": {
+    "全称": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+    "出版社": "Springer",
+    "网址": "https://dblp.org/db/conf/miccai/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "WINE": {
+    "全称": "Conference on Web and Internet Economics",
+    "出版社": "Springer",
+    "网址": "https://dblp.org/db/conf/wine/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "B",
+    "类型": "会议"
+  },
+  "AMIA": {
+    "全称": "American Medical Informatics Association Annual Symposium",
+    "出版社": "AMIA",
+    "网址": "http://dblp.uni-trier.de/db/conf/amia/",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "APBC": {
+    "全称": "Asia Pacific Bioinformatics Conference",
+    "出版社": "BioMedCentral",
+    "网址": "http://dblp.uni-trier.de/db/conf/apbc/",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "IEEE BigData": {
+    "全称": "IEEE International Conference on Big Data",
+    "出版社": "IEEE",
+    "网址": "https://dblp.uni-trier.de/db/conf/bigdataconf/",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "IEEE CLOUD": {
+    "全称": "IEEE International Conference on Cloud Computing",
+    "出版社": "IEEE",
+    "网址": "http://dblp.uni-trier.de/db/conf/IEEEcloud/",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SMC": {
+    "全称": "IEEE International Conference on Systems, Man, and Cybernetics",
+    "出版社": "IEEE",
+    "网址": "https://dblp.uni-trier.de/db/conf/smc/",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "COSIT": {
+    "全称": "International Conference on Spatial Information Theory",
+    "出版社": "ACM",
+    "网址": "http://dblp.uni-trier.de/db/conf/cosit/",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ISBRA": {
+    "全称": "International Symposium on Bioinformatics Research and Applications",
+    "出版社": "Springer",
+    "网址": "https://dblp.uni-trier.de/db/conf/isbra/",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SAGT": {
+    "全称": "International Symposium on Algorithmic Game Theory",
+    "出版社": "Springer",
+    "网址": "https://dblp.org/db/conf/sagt/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "SIGSPATIAL": {
+    "全称": "ACM Special Interest Group on Spatial Information",
+    "出版社": "ACM",
+    "网址": "https://dblp.org/db/journals/sigspatial/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICIC": {
+    "全称": "International Conference on Intelligent Computing",
+    "出版社": "Springer-Nature",
+    "网址": "https://dblp.org/db/conf/icic/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "ICSS": {
+    "全称": "International Conference on Service Science",
+    "出版社": "CCF/Springer",
+    "网址": "https://dblp.uni-trier.de/db/conf/service/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "AFT": {
+    "全称": "Advances in Financial Technologies",
+    "出版社": "Springer",
+    "网址": "https://dblp.uni-trier.de/db/conf/aft/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "会议"
+  },
+  "IJTCS-FAW": {
+    "全称": "International Joint Conference on Theoretical Computer Science - Frontier of Algorithmic Wisdom",
+    "出版社": "Springer",
+    "网址": "https://dblp.uni-trier.de/db/conf/faw/index.html",
+    "领域": "交叉/综合/新兴",
+    "等级": "C",
+    "类型": "会议"
+  }
+}

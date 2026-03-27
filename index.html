@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CCF 推荐国际学术会议和期刊目录</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ccf: { DEFAULT: '#1a56db', light: '#eff6ff', border: '#bfdbfe' }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', sans-serif; }
+    .level-badge-A { background: #fef9c3; color: #854d0e; border: 1px solid #fde047; }
+    .level-badge-B { background: #dcfce7; color: #166534; border: 1px solid #86efac; }
+    .level-badge-C { background: #f3f4f6; color: #374151; border: 1px solid #d1d5db; }
+    .type-badge-conf { background: #ede9fe; color: #5b21b6; border: 1px solid #c4b5fd; }
+    .type-badge-jour { background: #ffedd5; color: #9a3412; border: 1px solid #fdba74; }
+    tr:hover td { background-color: #f0f7ff; }
+    .filter-check input[type="checkbox"]:checked + span { background: #1a56db; color: #fff; border-color: #1a56db; }
+    .filter-check input[type="checkbox"] { display: none; }
+    .filter-check span { cursor: pointer; display: inline-block; padding: 4px 16px; border-radius: 9999px; border: 1px solid #d1d5db; font-size: 0.875rem; transition: all .15s; user-select: none; }
+    .filter-check span:hover { border-color: #1a56db; color: #1a56db; }
+    .filter-radio input[type="radio"] { display: none; }
+    .filter-radio input[type="radio"]:checked + span { background: #1a56db; color: #fff; border-color: #1a56db; }
+    .filter-radio span { cursor: pointer; display: inline-block; padding: 4px 16px; border-radius: 9999px; border: 1px solid #d1d5db; font-size: 0.875rem; transition: all .15s; user-select: none; }
+    .filter-radio span:hover { border-color: #1a56db; color: #1a56db; }
+    select:focus { outline: none; }
+    .table-link { color: #1a56db; text-decoration: none; word-break: break-all; }
+    .table-link:hover { text-decoration: underline; }
+    #results-table tbody tr { transition: background .1s; }
+    .empty-state { padding: 60px 0; text-align: center; color: #9ca3af; }
+    .empty-state svg { margin: 0 auto 12px; display: block; }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-ccf shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
+      <div class="flex items-center gap-3">
+        <svg class="w-8 h-8 text-white opacity-90" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414A1 1 0 0119 9.414V19a2 2 0 01-2 2z"/>
+        </svg>
+        <div>
+          <h1 class="text-xl font-bold text-white tracking-wide">CCF 推荐国际学术会议和期刊目录</h1>
+          <p class="text-blue-200 text-xs mt-0.5">中国计算机学会 · 学术资源导航</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+    <!-- Filter Panel -->
+    <section class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6">
+      <h2 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-5">筛选条件</h2>
+
+      <!-- 领域 -->
+      <div class="mb-5">
+        <label class="block text-sm font-medium text-gray-700 mb-2">
+          <span class="inline-block w-1.5 h-4 bg-ccf rounded mr-2 align-middle"></span>领域
+        </label>
+        <select id="filter-domain"
+          class="w-full sm:w-96 border border-gray-200 rounded-lg px-3 py-2 text-sm text-gray-700 bg-white shadow-sm hover:border-blue-400 transition cursor-pointer">
+          <option value="">全部领域</option>
+        </select>
+      </div>
+
+      <!-- 等级 -->
+      <div class="mb-5">
+        <label class="block text-sm font-medium text-gray-700 mb-2">
+          <span class="inline-block w-1.5 h-4 bg-ccf rounded mr-2 align-middle"></span>等级
+        </label>
+        <div class="flex flex-wrap gap-2" id="filter-level">
+          <label class="filter-check">
+            <input type="checkbox" value="A" />
+            <span>A 类</span>
+          </label>
+          <label class="filter-check">
+            <input type="checkbox" value="B" />
+            <span>B 类</span>
+          </label>
+          <label class="filter-check">
+            <input type="checkbox" value="C" />
+            <span>C 类</span>
+          </label>
+        </div>
+        <p class="text-xs text-gray-400 mt-1.5">不选则显示全部等级</p>
+      </div>
+
+      <!-- 类型 -->
+      <div class="mb-6">
+        <label class="block text-sm font-medium text-gray-700 mb-2">
+          <span class="inline-block w-1.5 h-4 bg-ccf rounded mr-2 align-middle"></span>类型
+        </label>
+        <div class="flex flex-wrap gap-2" id="filter-type">
+          <label class="filter-radio">
+            <input type="radio" name="type" value="" checked />
+            <span>全部</span>
+          </label>
+          <label class="filter-radio">
+            <input type="radio" name="type" value="会议" />
+            <span>会议</span>
+          </label>
+          <label class="filter-radio">
+            <input type="radio" name="type" value="期刊" />
+            <span>期刊</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Actions -->
+      <div class="flex items-center gap-3 pt-4 border-t border-gray-100">
+        <button id="btn-reset"
+          class="px-4 py-2 text-sm text-gray-600 bg-gray-100 rounded-lg hover:bg-gray-200 transition font-medium">
+          重置筛选
+        </button>
+        <span id="filter-summary" class="text-sm text-gray-400"></span>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+      <!-- Results header -->
+      <div class="flex items-center justify-between px-6 py-4 border-b border-gray-100">
+        <div class="flex items-center gap-2">
+          <span class="text-sm text-gray-500">共找到</span>
+          <span id="result-count" class="text-lg font-bold text-ccf">—</span>
+          <span class="text-sm text-gray-500">条结果</span>
+        </div>
+        <div id="loading-indicator" class="text-sm text-gray-400 flex items-center gap-2">
+          <svg class="animate-spin w-4 h-4 text-ccf" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"/>
+          </svg>
+          加载中…
+        </div>
+      </div>
+
+      <!-- Table -->
+      <div class="overflow-x-auto">
+        <table id="results-table" class="w-full text-sm">
+          <thead>
+            <tr class="bg-gray-50 text-gray-600 text-left">
+              <th class="px-4 py-3 font-semibold w-24">简称</th>
+              <th class="px-4 py-3 font-semibold">全称</th>
+              <th class="px-4 py-3 font-semibold w-28">出版社</th>
+              <th class="px-4 py-3 font-semibold w-20 text-center">等级</th>
+              <th class="px-4 py-3 font-semibold w-20 text-center">类型</th>
+              <th class="px-4 py-3 font-semibold">网址</th>
+            </tr>
+          </thead>
+          <tbody id="results-body">
+          </tbody>
+        </table>
+        <div id="empty-state" class="empty-state hidden">
+          <svg width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="#d1d5db">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+          <p class="text-base font-medium text-gray-400">没有找到符合条件的结果</p>
+          <p class="text-sm text-gray-300 mt-1">请尝试调整筛选条件</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="text-center py-8 text-xs text-gray-400">
+    数据来源：CCF 推荐国际学术会议和期刊目录 &nbsp;|&nbsp; 仅供学术参考
+  </footer>
+
+  <script>
+    let allData = [];   // [{abbr, fullName, publisher, url, domain, level, type}]
+    let domains = [];
+
+    // ── Load data ─────────────────────────────────────────────────────────────
+    async function loadData() {
+      const res = await fetch('data/processed/ccf.json');
+      const raw = await res.json();
+
+      allData = Object.entries(raw).map(([abbr, v]) => ({
+        abbr,
+        fullName:  v['全称']  || '',
+        publisher: v['出版社'] || '',
+        url:       v['网址']  || '',
+        domain:    v['领域']  || '',
+        level:     v['等级']  || '',
+        type:      v['类型']  || '',
+      }));
+
+      // Collect unique domains in the order they first appear
+      const domainSet = new Set();
+      allData.forEach(d => domainSet.add(d.domain));
+      domains = [...domainSet].sort();
+
+      buildDomainOptions();
+      document.getElementById('loading-indicator').classList.add('hidden');
+      applyFilters();
+    }
+
+    // ── Build domain dropdown ──────────────────────────────────────────────────
+    function buildDomainOptions() {
+      const sel = document.getElementById('filter-domain');
+      domains.forEach(d => {
+        const opt = document.createElement('option');
+        opt.value = d;
+        opt.textContent = d;
+        sel.appendChild(opt);
+      });
+    }
+
+    // ── Filter logic ───────────────────────────────────────────────────────────
+    function getFilters() {
+      const domain = document.getElementById('filter-domain').value;
+      const levelChecks = [...document.querySelectorAll('#filter-level input:checked')].map(c => c.value);
+      const type = document.querySelector('#filter-type input:checked').value;
+      return { domain, levelChecks, type };
+    }
+
+    function applyFilters() {
+      const { domain, levelChecks, type } = getFilters();
+
+      const filtered = allData.filter(d => {
+        if (domain && d.domain !== domain) return false;
+        if (levelChecks.length > 0 && !levelChecks.includes(d.level)) return false;
+        if (type && d.type !== type) return false;
+        return true;
+      });
+
+      renderTable(filtered);
+      updateSummary(domain, levelChecks, type);
+    }
+
+    // ── Render table ───────────────────────────────────────────────────────────
+    function levelBadgeClass(level) {
+      if (level === 'A') return 'level-badge-A';
+      if (level === 'B') return 'level-badge-B';
+      return 'level-badge-C';
+    }
+
+    function typeBadgeClass(type) {
+      return type === '会议' ? 'type-badge-conf' : 'type-badge-jour';
+    }
+
+    function renderTable(rows) {
+      const tbody = document.getElementById('results-body');
+      const empty = document.getElementById('empty-state');
+      const countEl = document.getElementById('result-count');
+
+      countEl.textContent = rows.length;
+
+      if (rows.length === 0) {
+        tbody.innerHTML = '';
+        empty.classList.remove('hidden');
+        return;
+      }
+
+      empty.classList.add('hidden');
+      tbody.innerHTML = rows.map(r => `
+        <tr>
+          <td class="px-4 py-3 font-mono font-semibold text-gray-800 border-b border-gray-50">${escHtml(r.abbr)}</td>
+          <td class="px-4 py-3 text-gray-700 border-b border-gray-50">${escHtml(r.fullName)}</td>
+          <td class="px-4 py-3 text-gray-500 border-b border-gray-50">${escHtml(r.publisher)}</td>
+          <td class="px-4 py-3 border-b border-gray-50 text-center">
+            <span class="inline-block rounded-full px-2.5 py-0.5 text-xs font-bold ${levelBadgeClass(r.level)}">${escHtml(r.level)}</span>
+          </td>
+          <td class="px-4 py-3 border-b border-gray-50 text-center">
+            <span class="inline-block rounded-full px-2.5 py-0.5 text-xs font-medium ${typeBadgeClass(r.type)}">${escHtml(r.type)}</span>
+          </td>
+          <td class="px-4 py-3 border-b border-gray-50">
+            ${r.url
+              ? `<a class="table-link" href="${escHtml(r.url)}" target="_blank" rel="noopener noreferrer">${escHtml(r.url)}</a>`
+              : '<span class="text-gray-300">—</span>'}
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    // ── Summary text ───────────────────────────────────────────────────────────
+    function updateSummary(domain, levelChecks, type) {
+      const parts = [];
+      if (domain) parts.push(`领域：${domain}`);
+      if (levelChecks.length) parts.push(`等级：${levelChecks.join('、')} 类`);
+      if (type) parts.push(`类型：${type}`);
+      const el = document.getElementById('filter-summary');
+      el.textContent = parts.length ? '当前筛选：' + parts.join('，') : '';
+    }
+
+    // ── Reset ──────────────────────────────────────────────────────────────────
+    document.getElementById('btn-reset').addEventListener('click', () => {
+      document.getElementById('filter-domain').value = '';
+      document.querySelectorAll('#filter-level input').forEach(c => c.checked = false);
+      document.querySelector('#filter-type input[value=""]').checked = true;
+      applyFilters();
+    });
+
+    // ── Event listeners ────────────────────────────────────────────────────────
+    document.getElementById('filter-domain').addEventListener('change', applyFilters);
+    document.querySelectorAll('#filter-level input').forEach(c => c.addEventListener('change', applyFilters));
+    document.querySelectorAll('#filter-type input').forEach(r => r.addEventListener('change', applyFilters));
+
+    // ── Utility ────────────────────────────────────────────────────────────────
+    function escHtml(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    // ── Init ───────────────────────────────────────────────────────────────────
+    loadData().catch(err => {
+      document.getElementById('loading-indicator').textContent = '数据加载失败，请确认文件路径正确';
+      console.error(err);
+    });
+  </script>
+</body>
+</html>
