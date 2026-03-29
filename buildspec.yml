@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Install phase"
+
+  build:
+    commands:
+      - echo "Deploy to S3"
+      - aws s3 sync ./frontend s3://ccf-site-xiaoxu-2026 --delete
+
+  post_build:
+    commands:
+      - echo "Invalidate CloudFront cache"
+      - aws cloudfront create-invalidation \
+          --distribution-id E10N1I6ZXP6NRF \
+          --paths "/*"
+
+artifacts:
+  files:
+    - '**/*'
