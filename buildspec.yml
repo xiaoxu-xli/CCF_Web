@@ -16,4 +16,7 @@ phases:
 artifacts:
   base-directory: .
   files:
-    - '**/*'
+    - index.html
+    - data/**/*
+    - "*.css"
+    - "*.js"
