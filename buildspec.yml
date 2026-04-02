@@ -7,17 +7,16 @@ phases:
 
   build:
     commands:
-      - echo "Deploy to S3 s3://ccf-site-xiaoxu-2026"
-      - aws s3 sync . s3://ccf-site-xiaoxu-2026 --delete --exclude "*.git*"
+      - echo "Build phase"
 
   post_build:
     commands:
-      - echo "Invalidate CloudFront cache"
-      - |
-        aws cloudfront create-invalidation \
-          --distribution-id E10N1I6ZXP6NRF \
-          --paths "/*"
+      - echo "Post build phase"
 
 artifacts:
+  base-directory: .
   files:
-    - '**/*'
+    - index.html
+    - data/**/*
+    - "*.css"
+    - "*.js"
