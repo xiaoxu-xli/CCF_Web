@@ -18,5 +18,6 @@ artifacts:
   files:
     - index.html
     - data/**/*
+    - "*.yml"
     - "*.css"
     - "*.js"
