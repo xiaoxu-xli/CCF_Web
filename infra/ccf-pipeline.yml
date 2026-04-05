@@ -1,0 +1,111 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: CCF Pipeline (Aligned with existing pipeline)
+
+Resources:
+
+# Artifact bucket
+  ArtifactBucket:
+    Type: AWS::S3::Bucket
+
+# Pipeline role（直接用你现有的）
+  Pipeline:
+    Type: AWS::CodePipeline::Pipeline
+    Properties:
+      Name: ccf-site-pipeline-manual-cf
+      RoleArn: arn:aws:iam::787235610195:role/service-role/ccf-site-pipeline-role
+
+      ArtifactStore:
+        Type: S3
+        Location: !Ref ArtifactBucket
+
+      PipelineType: V2
+
+      Stages:
+
+# ---------------- Source ----------------
+        - Name: Source
+          Actions:
+            - Name: Source
+              ActionTypeId:
+                Category: Source
+                Owner: AWS
+                Provider: CodeStarSourceConnection
+                Version: '1'
+
+              Configuration:
+                BranchName: main
+                ConnectionArn: arn:aws:codeconnections:ap-southeast-2:787235610195:connection/59023d9e-ec7e-4ceb-8253-de64bdef4492
+                FullRepositoryId: xiaoxu-xli/CCF_Web
+                OutputArtifactFormat: CODE_ZIP
+                DetectChanges: "false"
+
+              OutputArtifacts:
+                - Name: SourceArtifact
+
+# ---------------- Build ----------------
+        - Name: Build
+          Actions:
+            - Name: Build
+              ActionTypeId:
+                Category: Build
+                Owner: AWS
+                Provider: CodeBuild
+                Version: '1'
+
+              Configuration:
+                ProjectName: ccf-web-codebuild-for-codepipeline
+
+              InputArtifacts:
+                - Name: SourceArtifact
+
+              OutputArtifacts:
+                - Name: BuildArtifact
+
+# ---------------- Test ----------------
+        - Name: Test
+          Actions:
+            - Name: S3_Test
+              ActionTypeId:
+                Category: Build
+                Owner: AWS
+                Provider: CodeBuild
+                Version: '1'
+
+              Configuration:
+                ProjectName: ccf-web-codepipeline-test
+
+              InputArtifacts:
+                - Name: BuildArtifact
+
+# ---------------- Deploy ----------------
+        - Name: Deploy
+          Actions:
+            - Name: Deploy
+              ActionTypeId:
+                Category: Deploy
+                Owner: AWS
+                Provider: S3
+                Version: '1'
+
+              Configuration:
+                BucketName: ccf-site-xiaoxu-2026
+                Extract: true
+
+              InputArtifacts:
+                - Name: BuildArtifact
+
+# ---------------- PostDeploy ----------------
+        - Name: PostDeploy
+          Actions:
+            - Name: PostDeploy-CloudFront-Update
+              ActionTypeId:
+                Category: Build
+                Owner: AWS
+                Provider: CodeBuild
+                Version: '1'
+
+              Configuration:
+                ProjectName: ccf-cloudfront-invalidate
+
+              InputArtifacts:
+                - Name: BuildArtifact
