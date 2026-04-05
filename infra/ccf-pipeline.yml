@@ -37,7 +37,7 @@ Resources:
                 ConnectionArn: arn:aws:codeconnections:ap-southeast-2:787235610195:connection/59023d9e-ec7e-4ceb-8253-de64bdef4492
                 FullRepositoryId: xiaoxu-xli/CCF_Web
                 OutputArtifactFormat: CODE_ZIP
-                DetectChanges: "false"
+                DetectChanges: "true"
 
               OutputArtifacts:
                 - Name: SourceArtifact
