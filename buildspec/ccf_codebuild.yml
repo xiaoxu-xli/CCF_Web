@@ -18,6 +18,8 @@ artifacts:
   files:
     - index.html
     - data/**/*
+    - "buildspec/*"
+    - "infra/*"
     - "*.yml"
     - "*.css"
     - "*.js"

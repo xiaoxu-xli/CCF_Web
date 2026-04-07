@@ -1,0 +1,392 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: >-
+  Production-grade CCF website CI/CD with fully managed CodePipeline, CodeBuild x3,
+  IAM roles, and a fixed artifact bucket. Reuses only the website bucket,
+  CloudFront distribution, CodeConnections connection, and GitHub repository.
+
+Parameters:
+  PipelineName:
+    Type: String
+    Default: ccf-site-pipeline-dev-cf
+    Description: Name of the CodePipeline pipeline.
+
+  ArtifactBucketName:
+    Type: String
+    Default: ccf-artifacts-xiaoxu-2026
+    Description: Fixed S3 bucket name for CodePipeline artifacts. Must be globally unique.
+
+  WebsiteBucketName:
+    Type: String
+    Default: ccf-site-xiaoxu-2026
+    Description: Existing S3 bucket that hosts the static website.
+
+  ConnectionArn:
+    Type: String
+    Default: arn:aws:codeconnections:ap-southeast-2:787235610195:connection/59023d9e-ec7e-4ceb-8253-de64bdef4492
+    Description: Existing AWS CodeConnections ARN for GitHub.
+
+  RepositoryFullName:
+    Type: String
+    Default: xiaoxu-xli/CCF_Web
+    Description: Full GitHub repository name in owner/repo format.
+
+  BranchName:
+    Type: String
+    Default: main
+    Description: Git branch to watch.
+
+  CloudFrontDistributionId:
+    Type: String
+    Default: E10N1I6ZXP6NRF
+    Description: Existing CloudFront distribution ID for the website.
+
+  BuildProjectName:
+    Type: String
+    Default: ccf-web-build-dev
+
+  TestProjectName:
+    Type: String
+    Default: ccf-web-test-dev
+
+  InvalidateProjectName:
+    Type: String
+    Default: ccf-cloudfront-invalidate-dev
+
+  BuildSpecBuild:
+    Type: String
+    Default: buildspec/ccf_codebuild.yml
+    Description: Buildspec file for the build project.
+
+  BuildSpecTest:
+    Type: String
+    Default: buildspec/ccf_codepipeline_test.yaml
+    Description: Buildspec file for the test project.
+
+  BuildSpecInvalidate:
+    Type: String
+    Default: buildspec/ccf_cloudfront_invalidate.yaml
+    Description: Buildspec file for the CloudFront invalidation project.
+
+Resources:
+  ArtifactBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref ArtifactBucketName
+      VersioningConfiguration:
+        Status: Enabled
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      LifecycleConfiguration:
+        Rules:
+          - Status: Enabled
+            ExpirationInDays: 30
+
+  ArtifactBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref ArtifactBucket
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Sid: EnforceTLS
+            Effect: Deny
+            Principal: '*'
+            Action: 's3:*'
+            Resource:
+              - !GetAtt ArtifactBucket.Arn
+              - !Sub '${ArtifactBucket.Arn}/*'
+            Condition:
+              Bool:
+                aws:SecureTransport: false
+
+  CodeBuildServiceRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub '${PipelineName}-codebuild-role'
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: codebuild.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: !Sub '${PipelineName}-codebuild-policy'
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Sid: CloudWatchLogs
+                Effect: Allow
+                Action:
+                  - logs:CreateLogGroup
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                Resource: '*'
+              - Sid: ArtifactBucketAccess
+                Effect: Allow
+                Action:
+                  - s3:GetBucketLocation
+                  - s3:ListBucket
+                Resource:
+                  - !GetAtt ArtifactBucket.Arn
+              - Sid: ArtifactObjectAccess
+                Effect: Allow
+                Action:
+                  - s3:GetObject
+                  - s3:GetObjectVersion
+                  - s3:PutObject
+                Resource:
+                  - !Sub '${ArtifactBucket.Arn}/*'
+              - Sid: CloudFrontInvalidation
+                Effect: Allow
+                Action:
+                  - cloudfront:CreateInvalidation
+                Resource: '*'
+
+  CodePipelineServiceRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub '${PipelineName}-codepipeline-role'
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: codepipeline.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: !Sub '${PipelineName}-codepipeline-policy'
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Sid: ArtifactBucketAccess
+                Effect: Allow
+                Action:
+                  - s3:GetBucketLocation
+                  - s3:GetBucketVersioning
+                  - s3:ListBucket
+                Resource:
+                  - !GetAtt ArtifactBucket.Arn
+              - Sid: ArtifactObjectAccess
+                Effect: Allow
+                Action:
+                  - s3:GetObject
+                  - s3:GetObjectVersion
+                  - s3:PutObject
+                Resource:
+                  - !Sub '${ArtifactBucket.Arn}/*'
+              - Sid: WebsiteBucketDeploy
+                Effect: Allow
+                Action:
+                  - s3:GetBucketLocation
+                  - s3:ListBucket
+                  - s3:PutObject
+                  - s3:DeleteObject
+                  - s3:GetObject
+                  - s3:GetObjectVersion
+                Resource:
+                  - !Sub 'arn:aws:s3:::${WebsiteBucketName}'
+                  - !Sub 'arn:aws:s3:::${WebsiteBucketName}/*'
+              - Sid: StartAndReadCodeBuild
+                Effect: Allow
+                Action:
+                  - codebuild:StartBuild
+                  - codebuild:BatchGetBuilds
+                  - iam:PassRole
+                Resource:
+                  - !GetAtt BuildProject.Arn
+                  - !GetAtt TestProject.Arn
+                  - !GetAtt InvalidateProject.Arn
+                  - !GetAtt CodeBuildServiceRole.Arn
+              - Sid: UseConnection
+                Effect: Allow
+                Action:
+                  - codeconnections:UseConnection
+                  - codestar-connections:UseConnection
+                Resource: !Ref ConnectionArn
+
+  BuildProject:
+    Type: AWS::CodeBuild::Project
+    Properties:
+      Name: !Ref BuildProjectName
+      Description: Build stage for the CCF website pipeline.
+      ServiceRole: !GetAtt CodeBuildServiceRole.Arn
+      Artifacts:
+        Type: CODEPIPELINE
+      Source:
+        Type: CODEPIPELINE
+        BuildSpec: !Ref BuildSpecBuild
+      Environment:
+        ComputeType: BUILD_GENERAL1_SMALL
+        Image: aws/codebuild/standard:7.0
+        Type: LINUX_CONTAINER
+      LogsConfig:
+        CloudWatchLogs:
+          Status: ENABLED
+
+  TestProject:
+    Type: AWS::CodeBuild::Project
+    Properties:
+      Name: !Ref TestProjectName
+      Description: Test stage for the CCF website pipeline.
+      ServiceRole: !GetAtt CodeBuildServiceRole.Arn
+      Artifacts:
+        Type: CODEPIPELINE
+      Source:
+        Type: CODEPIPELINE
+        BuildSpec: !Ref BuildSpecTest
+      Environment:
+        ComputeType: BUILD_GENERAL1_SMALL
+        Image: aws/codebuild/standard:7.0
+        Type: LINUX_CONTAINER
+      LogsConfig:
+        CloudWatchLogs:
+          Status: ENABLED
+
+  InvalidateProject:
+    Type: AWS::CodeBuild::Project
+    Properties:
+      Name: !Ref InvalidateProjectName
+      Description: Post-deploy CloudFront invalidation stage for the CCF website pipeline.
+      ServiceRole: !GetAtt CodeBuildServiceRole.Arn
+      Artifacts:
+        Type: CODEPIPELINE
+      Source:
+        Type: CODEPIPELINE
+        BuildSpec: !Ref BuildSpecInvalidate
+      Environment:
+        ComputeType: BUILD_GENERAL1_SMALL
+        Image: aws/codebuild/standard:7.0
+        Type: LINUX_CONTAINER
+        EnvironmentVariables:
+          - Name: DISTRIBUTION_ID
+            Type: PLAINTEXT
+            Value: !Ref CloudFrontDistributionId
+      LogsConfig:
+        CloudWatchLogs:
+          Status: ENABLED
+
+  Pipeline:
+    Type: AWS::CodePipeline::Pipeline
+    Properties:
+      Name: !Ref PipelineName
+      RoleArn: !GetAtt CodePipelineServiceRole.Arn
+      PipelineType: V2
+      ArtifactStore:
+        Type: S3
+        Location: !Ref ArtifactBucket
+      Stages:
+        - Name: Source
+          Actions:
+            - Name: Source
+              ActionTypeId:
+                Category: Source
+                Owner: AWS
+                Provider: CodeStarSourceConnection
+                Version: '1'
+              Configuration:
+                BranchName: !Ref BranchName
+                ConnectionArn: !Ref ConnectionArn
+                FullRepositoryId: !Ref RepositoryFullName
+                OutputArtifactFormat: CODE_ZIP
+                DetectChanges: 'true'
+              OutputArtifacts:
+                - Name: SourceArtifact
+              RunOrder: 1
+
+        - Name: Build
+          Actions:
+            - Name: Build
+              ActionTypeId:
+                Category: Build
+                Owner: AWS
+                Provider: CodeBuild
+                Version: '1'
+              Configuration:
+                ProjectName: !Ref BuildProject
+              InputArtifacts:
+                - Name: SourceArtifact
+              OutputArtifacts:
+                - Name: BuildArtifact
+              RunOrder: 1
+
+        - Name: Test
+          Actions:
+            - Name: S3Test
+              ActionTypeId:
+                Category: Build
+                Owner: AWS
+                Provider: CodeBuild
+                Version: '1'
+              Configuration:
+                ProjectName: !Ref TestProject
+              InputArtifacts:
+                - Name: BuildArtifact
+              OutputArtifacts:
+                - Name: TestedArtifact
+              RunOrder: 1
+
+        - Name: Deploy
+          Actions:
+            - Name: DeployToS3
+              ActionTypeId:
+                Category: Deploy
+                Owner: AWS
+                Provider: S3
+                Version: '1'
+              Configuration:
+                BucketName: !Ref WebsiteBucketName
+                Extract: 'true'
+              InputArtifacts:
+                - Name: TestedArtifact
+              RunOrder: 1
+
+        - Name: PostDeploy
+          Actions:
+            - Name: InvalidateCloudFront
+              ActionTypeId:
+                Category: Build
+                Owner: AWS
+                Provider: CodeBuild
+                Version: '1'
+              Configuration:
+                ProjectName: !Ref InvalidateProject
+              InputArtifacts:
+                - Name: TestedArtifact
+              RunOrder: 1
+
+Outputs:
+  PipelineName:
+    Description: Name of the created CodePipeline pipeline.
+    Value: !Ref Pipeline
+
+  ArtifactBucketName:
+    Description: Fixed artifact bucket used by CodePipeline.
+    Value: !Ref ArtifactBucket
+
+  CodeBuildRoleArn:
+    Description: ARN of the CodeBuild service role.
+    Value: !GetAtt CodeBuildServiceRole.Arn
+
+  CodePipelineRoleArn:
+    Description: ARN of the CodePipeline service role.
+    Value: !GetAtt CodePipelineServiceRole.Arn
+
+  BuildProjectName:
+    Description: Build CodeBuild project name.
+    Value: !Ref BuildProject
+
+  TestProjectName:
+    Description: Test CodeBuild project name.
+    Value: !Ref TestProject
+
+  InvalidateProjectName:
+    Description: CloudFront invalidation CodeBuild project name.
+    Value: !Ref InvalidateProject
