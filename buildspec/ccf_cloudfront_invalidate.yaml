@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Invalidate CloudFront cache"
+      - |
+        aws cloudfront create-invalidation \
+          --distribution-id E10N1I6ZXP6NRF \
+          --paths "/*"
+
+      - echo "Invalidation submitted ✅"
