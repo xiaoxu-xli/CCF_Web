@@ -20,6 +20,7 @@ Parameters:
     Default: ccf-site-xiaoxu-2026
     Description: Existing S3 bucket that hosts the static website.
 
+
   ConnectionArn:
     Type: String
     Default: arn:aws:codeconnections:ap-southeast-2:787235610195:connection/59023d9e-ec7e-4ceb-8253-de64bdef4492
@@ -329,8 +330,8 @@ Resources:
                 ProjectName: !Ref TestProject
               InputArtifacts:
                 - Name: BuildArtifact
-              OutputArtifacts:
-                - Name: TestedArtifact
+              #OutputArtifacts:
+              #  - Name: BuildArtifact
               RunOrder: 1
 
         - Name: Deploy
@@ -345,7 +346,7 @@ Resources:
                 BucketName: !Ref WebsiteBucketName
                 Extract: 'true'
               InputArtifacts:
-                - Name: TestedArtifact
+                - Name: BuildArtifact
               RunOrder: 1
 
         - Name: PostDeploy
@@ -359,7 +360,7 @@ Resources:
               Configuration:
                 ProjectName: !Ref InvalidateProject
               InputArtifacts:
-                - Name: TestedArtifact
+                - Name: BuildArtifact
               RunOrder: 1
 
 Outputs:
