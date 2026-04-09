@@ -6,5 +6,6 @@
     {"ParameterKey": "BuildProjectName", "ParameterValue": "ccf-build-prod-xiaoxu"},
     {"ParameterKey": "TestProjectName", "ParameterValue": "ccf-test-prod-xiaoxu"},
     {"ParameterKey": "InvalidateProjectName", "ParameterValue": "ccf-invalidate-prod-xiaoxu"},
-    {"ParameterKey": "CloudFrontDistributionId", "ParameterValue": "EWH27BDI6RZDR"}
+    {"ParameterKey": "CloudFrontDistributionId", "ParameterValue": "EWH27BDI6RZDR"},
+    {"ParameterKey": "EnvironmentLabel", "ParameterValue": "PROD"}
 ]
