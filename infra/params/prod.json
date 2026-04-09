@@ -1,0 +1,10 @@
+{
+    "PipelineName": "ccf-pipeline-prod",
+    "BranchName": "main",
+    "ArtifactBucketName": "ccf-artifacts-prod-xiaoxu",
+    "WebsiteBucketName": "ccf-site-prod-xiaoxu",
+    "BuildProjectName": "ccf-build-prod",
+    "TestProjectName": "ccf-test-prod",
+    "InvalidateProjectName": "ccf-invalidate-prod",
+    "CloudFrontDistributionId": "PROD_CF_ID"
+  }
