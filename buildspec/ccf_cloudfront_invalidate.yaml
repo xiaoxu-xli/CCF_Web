@@ -4,9 +4,10 @@ phases:
   build:
     commands:
       - echo "Invalidate CloudFront cache"
+      - echo "CF ID is $DISTRIBUTION_ID"
       - |
         aws cloudfront create-invalidation \
-          --distribution-id E10N1I6ZXP6NRF \
+          --distribution-id $DISTRIBUTION_ID \
           --paths "/*"
 
       - echo "Invalidation submitted ✅"

@@ -1,0 +1,10 @@
+[
+    {"ParameterKey": "PipelineName", "ParameterValue": "ccf-pipeline-dev-xiaoxu"},
+    {"ParameterKey": "BranchName", "ParameterValue": "dev"},
+    {"ParameterKey": "ArtifactBucketName", "ParameterValue": "ccf-artifacts-dev-xiaoxu"},
+    {"ParameterKey": "WebsiteBucketName", "ParameterValue": "ccf-site-dev-xiaoxu"},
+    {"ParameterKey": "BuildProjectName", "ParameterValue": "ccf-build-dev-xiaoxu"},
+    {"ParameterKey": "TestProjectName", "ParameterValue": "ccf-test-dev-xiaoxu"},
+    {"ParameterKey": "InvalidateProjectName", "ParameterValue": "ccf-invalidate-dev-xiaoxu"},
+    {"ParameterKey": "CloudFrontDistributionId", "ParameterValue": "E3QSUHEGJ3S37W"}
+]
