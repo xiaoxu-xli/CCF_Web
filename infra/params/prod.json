@@ -1,10 +1,10 @@
-{
-    "PipelineName": "ccf-pipeline-prod",
-    "BranchName": "main",
-    "ArtifactBucketName": "ccf-artifacts-prod-xiaoxu",
-    "WebsiteBucketName": "ccf-site-prod-xiaoxu",
-    "BuildProjectName": "ccf-build-prod",
-    "TestProjectName": "ccf-test-prod",
-    "InvalidateProjectName": "ccf-invalidate-prod",
-    "CloudFrontDistributionId": "PROD_CF_ID"
-  }
+[
+    {"ParameterKey": "PipelineName", "ParameterValue": "ccf-pipeline-prod-xiaoxu"},
+    {"ParameterKey": "BranchName", "ParameterValue": "main"},
+    {"ParameterKey": "ArtifactBucketName", "ParameterValue": "ccf-artifacts-prod-xiaoxu"},
+    {"ParameterKey": "WebsiteBucketName", "ParameterValue": "ccf-site-prod-xiaoxu"},
+    {"ParameterKey": "BuildProjectName", "ParameterValue": "ccf-build-prod-xiaoxu"},
+    {"ParameterKey": "TestProjectName", "ParameterValue": "ccf-test-prod-xiaoxu"},
+    {"ParameterKey": "InvalidateProjectName", "ParameterValue": "ccf-invalidate-prod-xiaoxu"},
+    {"ParameterKey": "CloudFrontDistributionId", "ParameterValue": "EWH27BDI6RZDR"}
+]
